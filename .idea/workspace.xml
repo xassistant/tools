@@ -90,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/reademe.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -175,8 +175,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1250" />
-    <option name="y" value="154" />
+    <option name="x" value="1218" />
+    <option name="y" value="53" />
     <option name="width" value="1936" />
     <option name="height" value="944" />
   </component>
@@ -753,10 +753,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14047000" />
+    <option name="totallyTimeSpent" value="14440000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1026" y="85" width="1936" height="944" extended-state="0" />
+    <frame x="1161" y="59" width="1936" height="944" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -772,7 +772,7 @@
       <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4978678" visible="true" weight="0.37772086" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25373134" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25373134" />
       <window_info anchor="bottom" id="Problems" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="ASM" order="3" />
@@ -1152,7 +1152,7 @@
     <entry file="file://$PROJECT_DIR$/reademe.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
         </state>
       </provider>
     </entry>
