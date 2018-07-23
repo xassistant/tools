@@ -156,6 +156,8 @@ public class PojoUtilsTest {
         assertObject(new char[]{'a', '中', '无'});
         assertObject(new Character[]{'a', '中', '无'});
 
+
+
         assertObject(new short[]{37, 39, 12});
         assertObject(new Short[]{37, 39, 12});
 
