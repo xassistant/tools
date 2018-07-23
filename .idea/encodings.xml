@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/itcast/day3/thread/CountdownLatchTest.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/alibaba/druid/sql/parser/CharTypes.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/javaDemo/charDemo/CharDemo.java" charset="GBK" />
+  </component>
+</project>
