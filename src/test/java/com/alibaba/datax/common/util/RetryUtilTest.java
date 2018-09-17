@@ -110,7 +110,7 @@ public class RetryUtilTest {
      * @throws Exception
      */
     @Test
-    public void test006ExecutorService线程池占满() throws Exception {
+    public void test006ExecutorService() throws Exception {
         ThreadPoolExecutor executor = RetryUtil.createThreadPoolExecutor();
         expectedEx.expect(RejectedExecutionException.class);
         for (int i = 0; i < 10; i++) {
@@ -132,7 +132,7 @@ public class RetryUtilTest {
      * @throws Exception
      */
     @Test
-    public void test007ExecutorService正常运行() throws Exception {
+    public void test007ExecutorService1() throws Exception {
         ThreadPoolExecutor executor = RetryUtil.createThreadPoolExecutor();
         for (int i = 0; i < 10; i++) {
             executor.submit(new Callable<Object>() {
@@ -153,7 +153,7 @@ public class RetryUtilTest {
      * @throws Exception
      */
     @Test
-    public void test008ExecutorService正在运行的总数超过限制() throws Exception {
+    public void test008ExecutorService1() throws Exception {
         ThreadPoolExecutor executor = RetryUtil.createThreadPoolExecutor();
         expectedEx.expect(RejectedExecutionException.class);
         for (int i = 0; i < 10; i++) {
@@ -170,7 +170,7 @@ public class RetryUtilTest {
     }
 
     @Test
-    public void test009ExecutorService取消正在运行的任务() throws Exception {
+    public void test009ExecutorService1() throws Exception {
         ThreadPoolExecutor executor = RetryUtil.createThreadPoolExecutor();
         List<Future<Object>> futures = new ArrayList<Future<Object>>(10);
         for (int i = 0; i < 10; i++) {

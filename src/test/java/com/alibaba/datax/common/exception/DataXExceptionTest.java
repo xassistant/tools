@@ -19,7 +19,7 @@ public class DataXExceptionTest {
 	}
 
 	@Test
-	public void basicTest_中文() {
+	public void basicTest1() {
 		ErrorCode errorCode = FakeErrorCode.FAKE_ERROR_CODE_ONLY_FOR_TEST_01;
 		String errorMsg = "basicTest中文";
 		dataXException = DataXException.asDataXException(errorCode, errorMsg);

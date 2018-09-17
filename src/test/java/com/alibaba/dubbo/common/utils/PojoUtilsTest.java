@@ -112,7 +112,7 @@ public class PojoUtilsTest {
         assertObject(Byte.valueOf((byte) 78));
 
         assertObject('a');
-        assertObject('中');
+        assertObject('b');
 
         assertObject(Short.valueOf((short) 37));
 
@@ -153,8 +153,8 @@ public class PojoUtilsTest {
         assertObject(new byte[]{1, 12, 28, 78});
         assertObject(new Byte[]{1, 12, 28, 78});
 
-        assertObject(new char[]{'a', '中', '无'});
-        assertObject(new Character[]{'a', '中', '无'});
+        assertObject(new char[]{'a', 'b', 'c'});
+        assertObject(new Character[]{'a', 'b', 'c'});
 
 
 
@@ -178,7 +178,7 @@ public class PojoUtilsTest {
 
         assertArrayObject(new Byte[]{1, 12, 28, 78});
 
-        assertArrayObject(new Character[]{'a', '中', '无'});
+        assertArrayObject(new Character[]{'a', 'b', 'c'});
 
         assertArrayObject(new Short[]{37, 39, 12});
 

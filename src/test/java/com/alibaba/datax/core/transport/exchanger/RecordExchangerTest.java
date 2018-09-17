@@ -178,7 +178,7 @@ public class RecordExchangerTest extends CaseInitializer {
 	}
 
 	@Test
-	public void test_BufferExchanger_不满32条到达buffer大小() throws Exception {
+	public void test_BufferExchanger1() throws Exception {
 
 		Configuration configuration = ConfigurationProducer.produce();
 		configuration.set(CoreConstant.DATAX_CORE_CONTAINER_TASKGROUP_ID, 1);
