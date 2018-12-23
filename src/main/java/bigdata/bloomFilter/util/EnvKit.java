@@ -1,4 +1,4 @@
-package arithDemo.bloomFilter.util;
+package bigdata.bloomFilter.util;
 
 /**
  * EnvKit

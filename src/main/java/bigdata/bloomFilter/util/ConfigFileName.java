@@ -1,4 +1,4 @@
-package arithDemo.bloomFilter.util;
+package bigdata.bloomFilter.util;
 
 /**
  * 配置文件名枚举常量

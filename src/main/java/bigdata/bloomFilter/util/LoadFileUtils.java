@@ -1,4 +1,4 @@
-package arithDemo.bloomFilter.util;
+package bigdata.bloomFilter.util;
 
 import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;

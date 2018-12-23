@@ -1,9 +1,9 @@
-package arithDemo.bloomFilter;
+package bigdata.bloomFilter;
 
-import arithDemo.bloomFilter.util.ConfigFileName;
-import arithDemo.bloomFilter.util.EnvKit;
-import arithDemo.bloomFilter.util.LoadFileUtils;
-import arithDemo.bloomFilter.util.RedisAddress;
+import bigdata.bloomFilter.util.ConfigFileName;
+import bigdata.bloomFilter.util.EnvKit;
+import bigdata.bloomFilter.util.LoadFileUtils;
+import bigdata.bloomFilter.util.RedisAddress;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

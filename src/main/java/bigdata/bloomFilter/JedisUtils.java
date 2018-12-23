@@ -1,6 +1,6 @@
-package arithDemo.bloomFilter;
+package bigdata.bloomFilter;
 
-import arithDemo.bloomFilter.util.RedisAddress;
+import bigdata.bloomFilter.util.RedisAddress;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.Pipeline;

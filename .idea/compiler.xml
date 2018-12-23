@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/src/test/java/com/alibaba/datax/core/transport/exchanger/RecordExchangerTest.java" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -12,5 +15,11 @@
     <bytecodeTargetLevel>
       <module name="tools" target="8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding UTF8" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="tools" options="" />
+    </option>
   </component>
 </project>

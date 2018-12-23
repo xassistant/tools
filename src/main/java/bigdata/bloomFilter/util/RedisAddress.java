@@ -1,4 +1,4 @@
-package arithDemo.bloomFilter.util;
+package bigdata.bloomFilter.util;
 
 /**
  * 描述：redis地址枚举类

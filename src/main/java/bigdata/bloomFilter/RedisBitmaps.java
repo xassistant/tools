@@ -1,4 +1,4 @@
-package arithDemo.bloomFilter;
+package bigdata.bloomFilter;
 
 import com.google.common.math.LongMath;
 import com.google.common.primitives.Longs;
