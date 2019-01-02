@@ -357,6 +357,11 @@
             <artifactId>ehcache</artifactId>
             <version>3.5.2</version>
         </dependency>
+        <dependency>
+            <groupId>org.reflections</groupId>
+            <artifactId>reflections</artifactId>
+            <version>0.9.11</version>
+        </dependency>
     </dependencies>
 
 </project>

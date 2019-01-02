@@ -1,4 +1,4 @@
-package cache;
+package cache.cboard;
 
 import org.springframework.data.redis.core.RedisTemplate;
 

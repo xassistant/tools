@@ -1,4 +1,4 @@
-package cache;
+package cache.cboard;
 
 import org.ehcache.Cache;
 import org.ehcache.config.Configuration;
