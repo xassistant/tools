@@ -2,16 +2,12 @@ package designDemo.TomcatObserver;
 
 public interface LifecycleListener {
 
-	/**
-	 * 
-	 * Acknowledge the occurrence of the specified event.
-	 * 
-	 * 
-	 * 
-	 * @param event
-	 *            LifecycleEvent that has occurred
-	 */
+    /**
+     * Acknowledge the occurrence of the specified event.
+     *
+     * @param event LifecycleEvent that has occurred
+     */
 
-	public void lifecycleEvent(LifecycleEvent event);
+    void lifecycleEvent(LifecycleEvent event);
 
 }
