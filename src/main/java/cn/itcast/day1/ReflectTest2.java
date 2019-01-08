@@ -21,6 +21,8 @@ public class ReflectTest2 {
 		InputStream ips = ReflectTest2.class.getClassLoader().getResourceAsStream("config.properties");
 		InputStream ips1 = ReflectTest2.class.getResourceAsStream("config.properties");
 		InputStream ips2 = ReflectTest2.class.getResourceAsStream("/config.properties");
+		InputStream ips3 = Thread.currentThread().getContextClassLoader().getResourceAsStream("config.properties");
+		InputStream ips4 = Thread.currentThread().getClass().getResourceAsStream("/config.properties");
 
 		Properties props = new Properties();
 		props.load(ips);
