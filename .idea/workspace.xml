@@ -2,29 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f0612d9-6bb3-4d72-9bff-f1dc31936406" name="Default" comment="aaaa">
-      <change afterPath="$PROJECT_DIR$/src/main/java/apache/commons/cli/Cli.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designDemo/Observer/Observerable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designDemo/Observer/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designDemo/Observer/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designDemo/Observer/WechatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designDemo/eventBus/one/EventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designDemo/eventBus/one/TestEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designDemo/eventBus/one/TestEventBus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designDemo/eventBus/two/EventBusChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designDemo/eventBus/two/UserThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/ThreadPollTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaDemo/cloneDemo/ArrCloneDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaDemo/pathsDemo/pathsTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/LockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/TestJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/ThreadPool2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaDemo/fileDemo/FileTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaDemo/fileDemo/test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designDemo/Observer/BinaryObserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designDemo/Observer/HexaObserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designDemo/Observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designDemo/Observer/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designDemo/Observer/ObserverPatternDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designDemo/Observer/OctalObserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designDemo/Observer/Subject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designDemo/TomcatObserver/LifecycleEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designDemo/TomcatObserver/LifecycleEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designDemo/TomcatObserver/LifecycleListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/designDemo/TomcatObserver/LifecycleListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaDemo/cloneDemo/CloneDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javaDemo/cloneDemo/CloneDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javaDemo/inner/InnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javaDemo/inner/InnerClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,17 +25,17 @@
     <session id="-1352053351">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -60,8 +44,9 @@
           <entry key="class" value="8" />
           <entry key="classpath" value="1" />
           <entry key="html" value="4" />
-          <entry key="java" value="198" />
+          <entry key="java" value="210" />
           <entry key="sh" value="1" />
+          <entry key="test" value="1" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
@@ -70,8 +55,8 @@
           <entry key="CLASS" value="8" />
           <entry key="Eclipse" value="1" />
           <entry key="HTML" value="4" />
-          <entry key="JAVA" value="198" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="JAVA" value="210" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -81,7 +66,7 @@
         <counts>
           <entry key="READEME" value="2" />
           <entry key="dummy" value="9" />
-          <entry key="java" value="4289" />
+          <entry key="java" value="5624" />
           <entry key="txt" value="20" />
         </counts>
       </usages-collector>
@@ -89,7 +74,7 @@
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4289" />
+          <entry key="JAVA" value="5624" />
           <entry key="PLAIN_TEXT" value="31" />
         </counts>
       </usages-collector>
@@ -98,19 +83,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/heima2/ThreadPoolTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/ExecutorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/heima2/ThreadScopeShareData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="189">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -134,19 +110,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/pathsDemo/pathsTest1.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/ThreadPoolUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="108">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/apache/commons/cli/Cli.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/ThreadPool2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="44" column="65" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
+            <state relative-caret-position="3024">
+              <caret line="116" column="6" selection-start-line="116" selection-start-column="6" selection-end-line="116" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,13 +131,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/commons-cli/commons-cli/1.2/commons-cli-1.2-sources.jar!/org/apache/commons/cli/CommandLine.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/LockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="648">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
               <folding>
-                <element signature="e#2295#2296#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/TestJoin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="38" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/inner/InnerClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+              <folding>
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/ThreadExceptionTest.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/TestShutdownHook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -210,6 +222,7 @@
     </replaceStrings>
     <dirStrings>
       <dir>F:\github\tools\src\main\java</dir>
+      <dir>F:\github\tools\src\main\java\javaDemo\ThreadDemo</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -218,12 +231,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/reflections/DataProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/reflections/ProviderName.java" />
-        <option value="$PROJECT_DIR$/src/main/java/reflections/Initializing.java" />
-        <option value="$PROJECT_DIR$/src/main/java/reflections/DatasourceParameter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/reflections/DataProviderManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/reflections/cboard/ProviderName.java" />
         <option value="$PROJECT_DIR$/src/main/java/reflections/other/Test1.java" />
         <option value="$PROJECT_DIR$/src/main/java/cache/cboard/CacheManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/guava/MapsTest.java" />
@@ -269,6 +276,12 @@
         <option value="$PROJECT_DIR$/src/main/java/javaDemo/pathsDemo/pathsDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/javaDemo/pathsDemo/pathsTest1.java" />
         <option value="$PROJECT_DIR$/src/main/java/apache/commons/cli/Cli.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javaDemo/fileDemo/FileTest1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/ThreadPool2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/LockTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/TestJoin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/TestYeild.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javaDemo/inner/InnerClass.java" />
       </list>
     </option>
   </component>
@@ -303,10 +316,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="611" />
-    <option name="y" value="60" />
-    <option name="width" value="1936" />
-    <option name="height" value="923" />
+    <option name="x" value="463" />
+    <option name="y" value="396" />
+    <option name="width" value="1924" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -349,23 +362,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-              <item name="cli" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="javaDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -375,7 +371,36 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="javaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="pathsDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="inner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="inner" type="462c0819:PsiDirectoryNode" />
+              <item name="InnerClass.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ThreadDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ThreadDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ThreadPool2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="tools" type="b2602c69:ProjectViewProjectNode" />
@@ -601,7 +626,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/github/tools/src/main/java/javaDemo/reference/Employee.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546846669938" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546926369547" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../flume/flume-ng-core" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -630,7 +655,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Cli">
+  <component name="RunManager" selected="Application.StaticInnerClassTest">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -675,13 +700,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cli" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="apache.commons.cli.Cli" />
+    <configuration name="StaticInnerClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaDemo.inner.StaticInnerClassTest" />
       <module name="tools" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apache.commons.cli.*" />
+          <option name="PATTERN" value="javaDemo.inner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -689,22 +714,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaDemo.ThreadDemo.TestThreadPool" />
-      <module name="tools" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaDemo.ThreadDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadPollTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaDemo.ThreadDemo.ThreadPollTest1" />
+    <configuration name="TestJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaDemo.ThreadDemo.TestJoin" />
       <module name="tools" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -758,17 +769,51 @@
       <setting name="depsClasspath" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="TestEventBus.testReceiveEvent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LockTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tools" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designDemo.eventBus.one.*" />
+          <option name="PATTERN" value="javaDemo.ThreadDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="designDemo.eventBus.one" />
-      <option name="MAIN_CLASS_NAME" value="designDemo.eventBus.one.TestEventBus" />
-      <option name="METHOD_NAME" value="testReceiveEvent" />
+      <option name="PACKAGE_NAME" value="javaDemo.ThreadDemo" />
+      <option name="MAIN_CLASS_NAME" value="javaDemo.ThreadDemo.LockTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LockTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaDemo.ThreadDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javaDemo.ThreadDemo" />
+      <option name="MAIN_CLASS_NAME" value="javaDemo.ThreadDemo.LockTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadPool2.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tools" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaDemo.ThreadDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javaDemo.ThreadDemo" />
+      <option name="MAIN_CLASS_NAME" value="javaDemo.ThreadDemo.ThreadPool2" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -776,23 +821,6 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pathsTest1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tools" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaDemo.pathsDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="javaDemo.pathsDemo" />
-      <option name="MAIN_CLASS_NAME" value="javaDemo.pathsDemo.pathsTest1" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -859,19 +887,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestEventBus.testReceiveEvent" />
-      <item itemvalue="Application.TestThreadPool" />
-      <item itemvalue="Application.ThreadPollTest1" />
-      <item itemvalue="JUnit.pathsTest1.test1" />
-      <item itemvalue="Application.Cli" />
+      <item itemvalue="JUnit.ThreadPool2.test2" />
+      <item itemvalue="JUnit.LockTest.test1" />
+      <item itemvalue="JUnit.LockTest.test3" />
+      <item itemvalue="Application.TestJoin" />
+      <item itemvalue="Application.StaticInnerClassTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Cli" />
-        <item itemvalue="JUnit.pathsTest1.test1" />
-        <item itemvalue="Application.ThreadPollTest1" />
-        <item itemvalue="Application.TestThreadPool" />
-        <item itemvalue="JUnit.TestEventBus.testReceiveEvent" />
+        <item itemvalue="Application.StaticInnerClassTest" />
+        <item itemvalue="Application.TestJoin" />
+        <item itemvalue="JUnit.LockTest.test3" />
+        <item itemvalue="JUnit.LockTest.test1" />
+        <item itemvalue="JUnit.ThreadPool2.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -910,7 +938,10 @@
       <workItem from="1546674075416" duration="705000" />
       <workItem from="1546824963127" duration="502000" />
       <workItem from="1546825712408" duration="766000" />
-      <workItem from="1546845972760" duration="519000" />
+      <workItem from="1546845972760" duration="5001000" />
+      <workItem from="1546853358385" duration="1395000" />
+      <workItem from="1546912136406" duration="318000" />
+      <workItem from="1546921456908" duration="1488000" />
     </task>
     <task id="LOCAL-00001" summary="aaaa">
       <created>1537164074394</created>
@@ -951,45 +982,44 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CloneDemo1_test - 2019.01.02 at 11h 01m 34s.xml">
-      <configuration name="CloneDemo1.test" configurationId="JUnit" />
+    <history-entry file="ThreadPool2_test2 - 2019.01.07 at 16h 58m 59s.xml">
+      <configuration name="ThreadPool2.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CloneDemo1_test - 2019.01.02 at 11h 02m 50s.xml">
-      <configuration name="CloneDemo1.test" configurationId="JUnit" />
+    <history-entry file="LockTest_test1 - 2019.01.07 at 17h 36m 26s.xml">
+      <configuration name="LockTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CloneDemo1_test - 2019.01.02 at 11h 03m 16s.xml">
-      <configuration name="CloneDemo1.test" configurationId="JUnit" />
+    <history-entry file="LockTest_test1 - 2019.01.07 at 17h 36m 58s.xml">
+      <configuration name="LockTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CloneDemo1_test - 2019.01.02 at 11h 05m 45s.xml">
-      <configuration name="CloneDemo1.test" configurationId="JUnit" />
+    <history-entry file="LockTest_test1 - 2019.01.07 at 17h 37m 26s.xml">
+      <configuration name="LockTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestEventBus_testReceiveEvent - 2019.01.02 at 11h 26m 22s.xml">
-      <configuration name="TestEventBus.testReceiveEvent" configurationId="JUnit" />
+    <history-entry file="LockTest_test1 - 2019.01.07 at 17h 38m 22s.xml">
+      <configuration name="LockTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestEventBus_testReceiveEvent - 2019.01.02 at 15h 42m 03s.xml">
-      <configuration name="TestEventBus.testReceiveEvent" configurationId="JUnit" />
+    <history-entry file="LockTest_test1 - 2019.01.07 at 17h 41m 15s.xml">
+      <configuration name="LockTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestEventBus_testReceiveEvent - 2019.01.02 at 15h 43m 31s.xml">
-      <configuration name="TestEventBus.testReceiveEvent" configurationId="JUnit" />
+    <history-entry file="LockTest_test1 - 2019.01.07 at 17h 42m 42s.xml">
+      <configuration name="LockTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="pathsTest1_test1 - 2019.01.07 at 09h 43m 57s.xml">
-      <configuration name="pathsTest1.test1" configurationId="JUnit" />
+    <history-entry file="LockTest_test1 - 2019.01.07 at 17h 43m 04s.xml">
+      <configuration name="LockTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="pathsTest1_test1 - 2019.01.07 at 09h 44m 12s.xml">
-      <configuration name="pathsTest1.test1" configurationId="JUnit" />
+    <history-entry file="LockTest_test3 - 2019.01.07 at 17h 44m 01s.xml">
+      <configuration name="LockTest.test3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="pathsTest1_test1 - 2019.01.07 at 09h 51m 24s.xml">
-      <configuration name="pathsTest1.test1" configurationId="JUnit" />
+    <history-entry file="LockTest_test3 - 2019.01.07 at 17h 44m 17s.xml">
+      <configuration name="LockTest.test3" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93205000" />
+    <option name="totallyTimeSpent" value="100888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25107297" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26233906" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1000,8 +1030,8 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32796317" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32796317" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.443038" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32796317" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.40391254" />
       <window_info anchor="bottom" id="Spring" order="4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1068,75 +1098,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/cloneDemo/Person.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/cloneDemo/ArrCloneDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/cloneDemo/CloneDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="71" column="48" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/cloneDemo/test/Cat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/cloneDemo/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designDemo/TomcatObserver/LifecycleListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designDemo/TomcatObserver/LifecycleEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/designDemo/TomcatObserver/Lifecycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/16.0.1/guava-16.0.1-sources.jar!/com/google/common/collect/SetMultimap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/designDemo/TomcatObserver/LifecycleSupport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1307,7 +1268,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/heima2/ThreadPoolTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
+        <state>
           <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
         </state>
       </provider>
@@ -1316,6 +1277,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/pathsDemo/pathsTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-cli/commons-cli/1.2/commons-cli-1.2-sources.jar!/org/apache/commons/cli/CommandLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/logging/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="135" column="36" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/apache/commons/cli/Cli.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/fileDemo/test">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/fileDemo/FileTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/TestYeild.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/ExecutorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1333,36 +1340,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/pathsDemo/pathsTest1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/ThreadPoolUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        <state relative-caret-position="108">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-cli/commons-cli/1.2/commons-cli-1.2-sources.jar!/org/apache/commons/cli/CommandLine.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/ThreadPool2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="3024">
+          <caret line="116" column="6" selection-start-line="116" selection-start-column="6" selection-end-line="116" selection-end-column="6" />
           <folding>
-            <element signature="e#2295#2296#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/logging/Level.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/LockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="135" column="36" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="36" />
+        <state relative-caret-position="648">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apache/commons/cli/Cli.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/ThreadExceptionTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/TestShutdownHook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="44" column="65" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
+        <state relative-caret-position="162">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/TestJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/inner/InnerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
           </folding>
         </state>
       </provider>
