@@ -44,8 +44,6 @@ public class Configurables {
     return false;
   }
 
-
-
   public static void ensureRequiredNonNull(Context context, String... keys) {
     for (String key : keys) {
       if (!context.getParameters().containsKey(key)

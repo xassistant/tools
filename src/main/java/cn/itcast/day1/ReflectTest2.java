@@ -43,7 +43,7 @@ public class ReflectTest2 {
 		//pt1.y = 7;		
 		//collections.remove(pt1);
 		
-		System.out.println(collections.size());
+		System.out.println(collections.size()+"³¤¶È");
 	}
 
 }

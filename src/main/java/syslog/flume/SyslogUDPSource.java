@@ -1,12 +1,14 @@
 package syslog.flume;
 
 import org.jboss.netty.bootstrap.ConnectionlessBootstrap;
+import org.jboss.netty.buffer.ChannelBuffer;
 import org.jboss.netty.channel.*;
 import org.jboss.netty.channel.socket.oio.OioDatagramChannelFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.net.InetSocketAddress;
+import java.nio.charset.StandardCharsets;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.Executors;
@@ -24,7 +26,6 @@ public class SyslogUDPSource {
     private String clientHostnameHeader;
 
     private static final Logger logger = LoggerFactory.getLogger(SyslogUDPSource.class);
-
 
     // Default Min size
     public static final int DEFAULT_MIN_SIZE = 2048;
@@ -58,24 +59,28 @@ public class SyslogUDPSource {
             try {
 
                 syslogUtils.setEventSize(maxsize);
-                System.out.println(i++);
-//                System.out.println(mEvent.getMessage());
+                ChannelBuffer buffer = (ChannelBuffer) mEvent.getMessage();
+//                byte[] recByte = buffer.copy().toByteBuffer().array();
+                byte[] recByte = buffer.copy().toByteBuffer().array();
+
+                String msg = new String(recByte);
+                System.out.println(msg);
+
 //                Event e = syslogUtils.extractEvent((ChannelBuffer) mEvent.getMessage());
 //                if (e == null) {
 //                    return;
 //                }
 //
 //                if (clientIPHeader != null) {
-//                    e.getHeaders().put(clientIPHeader,
-//                            SyslogUtils.getIP(mEvent.getRemoteAddress()));
+//                    e.getHeaders().put(clientIPHeader, SyslogUtils.getIP(mEvent.getRemoteAddress()));
 //                }
 //
 //                if (clientHostnameHeader != null) {
-//                    e.getHeaders().put(clientHostnameHeader,
-//                            SyslogUtils.getHostname(mEvent.getRemoteAddress()));
+//                    e.getHeaders().put(clientHostnameHeader, SyslogUtils.getHostname(mEvent.getRemoteAddress()));
 //                }
-
-
+//                byte[] body = e.getBody();
+//
+//                System.out.println(new String(body));
             } catch (ChannelException ex) {
                 logger.error("Error writting to channel", ex);
                 return;
@@ -88,16 +93,13 @@ public class SyslogUDPSource {
 
     public void start() {
         // setup Netty server
-        ConnectionlessBootstrap serverBootstrap = new ConnectionlessBootstrap(
-                new OioDatagramChannelFactory(Executors.newCachedThreadPool()));
+        ConnectionlessBootstrap serverBootstrap = new ConnectionlessBootstrap(new OioDatagramChannelFactory(Executors.newCachedThreadPool()));
         final syslogHandler handler = new syslogHandler();
         handler.setFormater(formaterProp);
         handler.setKeepFields(keepFields);
         handler.setClientIPHeader(clientIPHeader);
         handler.setClientHostnameHeader(clientHostnameHeader);
-        serverBootstrap.setOption("receiveBufferSizePredictorFactory",
-                new AdaptiveReceiveBufferSizePredictorFactory(DEFAULT_MIN_SIZE,
-                        DEFAULT_INITIAL_SIZE, maxsize));
+        serverBootstrap.setOption("receiveBufferSizePredictorFactory", new AdaptiveReceiveBufferSizePredictorFactory(DEFAULT_MIN_SIZE, DEFAULT_INITIAL_SIZE, maxsize));
         serverBootstrap.setPipelineFactory(new ChannelPipelineFactory() {
             @Override
             public ChannelPipeline getPipeline() {
@@ -129,20 +131,13 @@ public class SyslogUDPSource {
     }
 
     public void configure(Context context) {
-        Configurables.ensureRequiredNonNull(
-                context, SyslogSourceConfigurationConstants.CONFIG_PORT);
+        Configurables.ensureRequiredNonNull(context, SyslogSourceConfigurationConstants.CONFIG_PORT);
         port = context.getInteger(SyslogSourceConfigurationConstants.CONFIG_PORT);
         host = context.getString(SyslogSourceConfigurationConstants.CONFIG_HOST);
-        formaterProp = context.getSubProperties(
-                SyslogSourceConfigurationConstants.CONFIG_FORMAT_PREFIX);
-        keepFields = SyslogUtils.chooseFieldsToKeep(
-                context.getString(
-                        SyslogSourceConfigurationConstants.CONFIG_KEEP_FIELDS,
-                        SyslogSourceConfigurationConstants.DEFAULT_KEEP_FIELDS));
-        clientIPHeader =
-                context.getString(SyslogSourceConfigurationConstants.CONFIG_CLIENT_IP_HEADER);
-        clientHostnameHeader =
-                context.getString(SyslogSourceConfigurationConstants.CONFIG_CLIENT_HOSTNAME_HEADER);
+        formaterProp = context.getSubProperties(SyslogSourceConfigurationConstants.CONFIG_FORMAT_PREFIX);
+        keepFields = SyslogUtils.chooseFieldsToKeep(context.getString(SyslogSourceConfigurationConstants.CONFIG_KEEP_FIELDS, SyslogSourceConfigurationConstants.DEFAULT_KEEP_FIELDS));
+        clientIPHeader = context.getString(SyslogSourceConfigurationConstants.CONFIG_CLIENT_IP_HEADER);
+        clientHostnameHeader = context.getString(SyslogSourceConfigurationConstants.CONFIG_CLIENT_HOSTNAME_HEADER);
 
     }
 

@@ -84,34 +84,65 @@ public class ThreadPool2 {
     }
 
     @Test
-    public void test3() {
+    public void test3() throws InterruptedException {
         ScheduledExecutorService executorService = Executors.newSingleThreadScheduledExecutor(
                 new ThreadFactoryBuilder().setNameFormat("conf-file-poller-%d")
                         .build());
-        MonitorRunnable monitorRunnable = new MonitorRunnable();
-        executorService.scheduleWithFixedDelay(monitorRunnable, 0, 3, TimeUnit.SECONDS);
+        MonitorRunnable monitorRunnable = new MonitorRunnable("");
+        ScheduledFuture<?> scheduledFuture = executorService.scheduleWithFixedDelay(monitorRunnable, 0, 3, TimeUnit.SECONDS);
+        Thread.sleep(2000);
+        scheduledFuture.cancel(true);
+        Thread.sleep(1000000);
+    }
+
+    @Test
+    public void test4() throws InterruptedException {
+        ScheduledThreadPoolExecutor pool = new ScheduledThreadPoolExecutor(2,
+                new ThreadFactoryBuilder()
+                        .setNameFormat("conf-file-poller-%d")
+                        .build());
+        pool.setMaximumPoolSize(3);
+        MonitorRunnable m1 = new MonitorRunnable("monitor----1");
+        MonitorRunnable m2 = new MonitorRunnable("monitor----2");
+        MonitorRunnable m3 = new MonitorRunnable("monitor----3");
+        MonitorRunnable m4 = new MonitorRunnable("monitor----4");
+        MonitorRunnable m5 = new MonitorRunnable("monitor----5");
+
+
+        ScheduledFuture<?> s1 = pool.scheduleWithFixedDelay(m1, 0, 1, TimeUnit.SECONDS);
+        ScheduledFuture<?> s2 = pool.scheduleWithFixedDelay(m2, 0, 1, TimeUnit.SECONDS);
+        ScheduledFuture<?> s3 = pool.scheduleWithFixedDelay(m3, 0, 1, TimeUnit.SECONDS);
+        ScheduledFuture<?> s4 = pool.scheduleWithFixedDelay(m4, 0, 1, TimeUnit.SECONDS);
+        ScheduledFuture<?> s5 = pool.scheduleWithFixedDelay(m5, 0, 1, TimeUnit.SECONDS);
+
+        Thread.sleep(4000);
+        s2.cancel(true);
+        pool.purge();// 取消后要移除
+
+        Thread.sleep(1000000);
     }
 }
 
 class MonitorRunnable extends StateRunnable implements Runnable {
+    String name;
+
+    public MonitorRunnable(String s) {
+        this.name = s;
+    }
 
     @Override
     public void run() {
-        if (isStart()) {
-            this.start();
-            setStart(false);
-            System.out.println("start monitor runnable");
+//        while (!isStart()) {
+        try {
+            System.out.println(name + "::" + Thread.currentThread().getName());
+            Thread.sleep(1000000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+            setStart(true);
         }
+//        }
     }
 
-    public void start() {
-        ScheduledThreadPoolExecutor monitorService = new ScheduledThreadPoolExecutor(10,
-                new ThreadFactoryBuilder().setNameFormat(
-                        "lifecycleSupervisor-" + Thread.currentThread().getId() + "-%d")
-                        .build());
-        ScheduledFuture<?> future = monitorService.scheduleWithFixedDelay(
-                () -> System.out.println("task"), 0, 3, TimeUnit.SECONDS);
-    }
 }
 
 class StateRunnable {
