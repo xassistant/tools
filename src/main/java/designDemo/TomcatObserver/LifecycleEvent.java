@@ -4,46 +4,46 @@ import java.util.EventObject;
 
 public final class LifecycleEvent extends EventObject {
 
-	public LifecycleEvent(Lifecycle lifecycle, String type) {
+    public LifecycleEvent(Lifecycle lifecycle, String type) {
 
-		this(lifecycle, type, null);
+        this(lifecycle, type, null);
 
-	}
+    }
 
-	public LifecycleEvent(Lifecycle lifecycle, String type, Object data) {
+    public LifecycleEvent(Lifecycle lifecycle, String type, Object data) {
 
-		super(lifecycle);
+        super(lifecycle);
 
-		this.lifecycle = lifecycle;
+        this.lifecycle = lifecycle;
 
-		this.type = type;
+        this.type = type;
 
-		this.data = data;
+        this.data = data;
 
-	}
+    }
 
-	private Object data = null;
+    private Object data = null;
 
-	private Lifecycle lifecycle = null;
+    private Lifecycle lifecycle = null;
 
-	private String type = null;
+    private String type = null;
 
-	public Object getData() {
+    public Object getData() {
 
-		return (this.data);
+        return (this.data);
 
-	}
+    }
 
-	public Lifecycle getLifecycle() {
+    public Lifecycle getLifecycle() {
 
-		return (this.lifecycle);
+        return (this.lifecycle);
 
-	}
+    }
 
-	public String getType() {
+    public String getType() {
 
-		return (this.type);
+        return (this.type);
 
-	}
+    }
 
 }
