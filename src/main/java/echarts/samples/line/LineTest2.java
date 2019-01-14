@@ -1,0 +1,72 @@
+/*
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2014-2015 abel533@gmail.com
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+package echarts.samples.line;
+
+ import com.github.abel533.echarts.Label;
+import com.github.abel533.echarts.LabelLine;
+import com.github.abel533.echarts.axis.CategoryAxis;
+import com.github.abel533.echarts.axis.ValueAxis;
+import com.github.abel533.echarts.code.*;
+import com.github.abel533.echarts.data.Data;
+import com.github.abel533.echarts.data.LineData;
+import com.github.abel533.echarts.data.PointData;
+import com.github.abel533.echarts.feature.MagicType;
+import com.github.abel533.echarts.series.Bar;
+import com.github.abel533.echarts.series.Funnel;
+import com.github.abel533.echarts.series.Line;
+import com.github.abel533.echarts.style.LineStyle;
+import com.github.abel533.echarts.style.TextStyle;
+import echarts.util.EnhancedOption;
+import org.junit.Test;
+
+import java.util.Arrays;
+import java.util.List;
+/**
+ * @author liuzh
+ */
+public class LineTest2 {
+
+    @Test
+    public void test() {
+        EnhancedOption option = new EnhancedOption();
+        option.title("某楼盘销售情况", "纯属虚构");
+        option.legend("意向", "预购");
+        option.calculable(true);
+        option.xAxis(new CategoryAxis().boundaryGap(false).data("周一", "周二", "周三", "周四", "周五", "周六", "周日"));
+        option.yAxis(new ValueAxis());
+
+        Line l1 = new Line();
+        l1.smooth(true).itemStyle().normal().areaStyle().typeDefault();
+        l1.data(10, 12, 21, 54, 260, 830, 710);
+
+        Line l2 = new Line();
+        l2.smooth(true).itemStyle().normal().areaStyle().typeDefault();
+        l2.data(30, 182, 434, 791, 390, 30, 10);
+
+        option.series(l1, l2);
+        option.exportToHtml("line3.html");
+        option.view();
+    }
+}

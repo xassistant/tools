@@ -57,7 +57,7 @@ public class Cli {
     private static void help() {
         // This prints out some help
         HelpFormatter formater = new HelpFormatter();
-        formater.printHelp("Main", options);
+        formater.printHelp("SyslogUdpTest", options);
         System.exit(0);
     }
 

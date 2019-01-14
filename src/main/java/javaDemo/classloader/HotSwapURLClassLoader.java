@@ -1,4 +1,4 @@
-package jvm.classloader;
+package javaDemo.classloader;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -19,7 +19,7 @@ public class HotSwapURLClassLoader extends URLClassLoader {
 	// 工程class类所在的路径
 	public static String projectClassPath = "F:\\work8tools\\hotswap\\target\\classes\\";
 	// 所有的测试的类都在同一个包下
-	public static String packagePath = "jvm/classloader/";
+	public static String packagePath = "javaDemo/classloader/";
 
 	private static HotSwapURLClassLoader hcl = new HotSwapURLClassLoader();
 

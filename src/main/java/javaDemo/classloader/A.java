@@ -1,4 +1,4 @@
-package jvm.classloader;
+package javaDemo.classloader;
 import java.util.logging.Level;
 
 public class A {

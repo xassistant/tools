@@ -1,4 +1,4 @@
-package jvm.classloader;
+package javaDemo.classloader;
 
 public class Hot {
 	public void hot() {

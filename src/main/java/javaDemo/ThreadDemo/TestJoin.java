@@ -19,7 +19,7 @@ public class TestJoin implements Runnable {
 //        t.join(1000);//等待线程t 1000毫秒
         t.join();
         System.out.println(System.currentTimeMillis()-start);//打印出时间间隔
-        System.out.println("Main finished");//打印主线程结束
+        System.out.println("SyslogUdpTest finished");//打印主线程结束
     }
 
     @Override
