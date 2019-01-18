@@ -63,7 +63,7 @@ public class BarTest2 {
         bar.barWidth(24);
         AxisLabel axisLabel = new AxisLabel();
         axisLabel.interval(0);
-        axisLabel.rotate(-10);
+        axisLabel.rotate(-50);
 
         data.axisLabel(axisLabel);
         option.series(bar);

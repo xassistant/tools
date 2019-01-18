@@ -48,7 +48,7 @@ public class BarTest1 {
     public void test() {
         //地址：http://echarts.baidu.com/doc/example/bar1.html
         EnhancedOption option = new EnhancedOption();
-        option.title().text("某地区蒸发量和降水量").subtext("纯属虚构");
+        option.title().text("某地区蒸发量和降水量").subtext("纯属虚构").textStyle().fontSize(15);;
         option.tooltip().trigger(Trigger.axis);
         option.legend("蒸发量", "降水量");
         option.toolbox().show(true).feature(Tool.mark, Tool.dataView, new MagicType(Magic.line, Magic.bar).show(true), Tool.restore, Tool.saveAsImage);
