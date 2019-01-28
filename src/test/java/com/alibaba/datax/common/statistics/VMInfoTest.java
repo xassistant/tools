@@ -5,7 +5,9 @@ import org.junit.Test;
 
 import java.lang.management.*;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by liqiang on 15/11/12.
@@ -22,13 +24,11 @@ public class VMInfoTest {
         System.out.println("jvm规范版本:" + runtimeMXBean.getSpecVersion());
         System.out.println("jvm实现版本:" + runtimeMXBean.getVmVersion());
 
-
         OperatingSystemMXBean osMXBean = ManagementFactory.getOperatingSystemMXBean();
         System.out.println(osMXBean.getName());
         System.out.println(osMXBean.getArch());
         System.out.println(osMXBean.getVersion());
         System.out.println(osMXBean.getAvailableProcessors());
-
 
         if (VMInfo.isSunOsMBean(osMXBean)) {
             long totalPhysicalMemory = VMInfo.getLongFromOperatingSystem(osMXBean, "getTotalPhysicalMemorySize");
@@ -65,7 +65,6 @@ public class VMInfoTest {
 
             System.out.println(String.format("%,.1f", (float) processTime / (upTime * osMXBean.getAvailableProcessors() * 10000)));
 
-
             List<GarbageCollectorMXBean> garbages = ManagementFactory.getGarbageCollectorMXBeans();
             for (GarbageCollectorMXBean garbage : garbages) {
                 System.out.println("垃圾收集器：名称=" + garbage.getName() + ",收集=" + garbage.getCollectionCount() + ",总花费时间=" + garbage.getCollectionTime() + ",内存区名称=" + Arrays.deepToString(garbage.getMemoryPoolNames()));
@@ -83,6 +82,8 @@ public class VMInfoTest {
         }
     }
 
+    public static Map<String, String> map = new HashMap();
+
     @Test
     public void testVMInfo() throws Exception {
         VMInfo vmInfo = VMInfo.getVmInfo();
@@ -91,15 +92,20 @@ public class VMInfoTest {
         vmInfo.getDelta();
         int count = 0;
 
-        while(count < 10) {
+        while (count < 10) {
             long startTime = System.currentTimeMillis();
             while (true) {
                 if (System.currentTimeMillis() > startTime + 1000) {
                     break;
                 }
             }
+            map.clear();
+            map = new HashMap<>();
+            for (int i = 0; i < 100000; i++) {
+                map.put(i + "_key", i + "_value");
+            }
             vmInfo.getDelta();
-            count++;
+//            count++;
             Thread.sleep(1000);
         }
 
