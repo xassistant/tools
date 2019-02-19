@@ -20,7 +20,7 @@ public class SelectSort {
         // i是决定走几趟, 冒泡排序
         for (int i = 0; i < arr.length - 1; i++) {
             // 内层循环，开始逐个比较，如果发现前一个数比后一个数大就交换
-            // 相邻的数据进行比较, 找到小的排到前边
+            // 相邻的数据进行比较, 找到小的排到前边，所以前边的都是最小的已经排好序了，j=i+1
             for (int j = i + 1; j < arr.length; j++) {
                 if (arr[i] > arr[j]) {
                     tmp = arr[i];
