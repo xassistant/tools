@@ -10,11 +10,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="algorithm" />
+        <module name="dataStructure" />
+        <module name="Interview" />
         <module name="jdk" />
         <module name="spark" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="algorithm" target="8" />
+      <module name="dataStructure" target="8" />
+      <module name="Interview" target="8" />
       <module name="jdk" target="8" />
       <module name="spark" target="8" />
       <module name="tools" target="8" />
@@ -23,6 +29,9 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding UTF8" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Interview" options="" />
+      <module name="algorithm" options="" />
+      <module name="dataStructure" options="" />
       <module name="jdk" options="" />
       <module name="spark" options="" />
       <module name="tools" options="" />

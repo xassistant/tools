@@ -2,606 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f0612d9-6bb3-4d72-9bff-f1dc31936406" name="Default" comment="aaaa">
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/arithDemo/AVL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/arithDemo/BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/anomaly/detection/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/anomaly/detection/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/anomaly/detection/datastructure/AttrInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/anomaly/detection/datastructure/AucttionEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/anomaly/detection/datastructure/Click.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/anomaly/detection/datastructure/Impression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/anomaly/detection/datastructure/MyComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/anomaly/detection/strategies/anomalydetection/iforest/IForest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/anomaly/detection/strategies/anomalydetection/iforest/ITree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/anomaly/detection/strategies/anomalydetection/iforest/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/anomaly/detection/strategies/ruleengine/RuleBasedDetection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/anomaly/detection/strategies/unsupervisedlearning/KMeansCluster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/anomaly/detection/tools/EsClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/anomaly/detection/tools/FeatureProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/anomaly/detection/tools/RedisClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/anomaly/detection/tools/StatisticalAnalysis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/anomaly/detection/utils/FileOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/anomaly/detection/utils/ProjectConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/anomaly/detection/utils/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/bloomFilter/JedisExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/bloomFilter/JedisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/bloomFilter/PipelineExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/bloomFilter/RedisBitmaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/bloomFilter/RedisBloomFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/bloomFilter/RedisBloomFilterStrategies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/bloomFilter/RedisBloomFilterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/bloomFilter/RedisConnectionPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/bloomFilter/util/ConfigFileName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/bloomFilter/util/EnvKit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/bloomFilter/util/LoadFileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/bigdata/bloomFilter/util/RedisAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cache/cboard/CacheManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cache/cboard/CacheObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cache/cboard/EhCacheManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cache/cboard/HeapCacheManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cache/cboard/RedisCacheManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day1/AutoBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day1/EnumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day1/IntroSpectorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day1/ReflectPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day1/ReflectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day1/ReflectTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day1/StaticImport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day1/VarableParameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day1/WeekDay1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day1/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day2/AnnotationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day2/ClassLoaderAttachment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day2/ClassLoaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day2/GenericDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day2/GenericTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day2/ItcastAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day2/MetaAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day2/MyClassLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day3/Advice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day3/MyAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day3/ProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day3/aopframework/AopFrameworkTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day3/aopframework/BeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day3/aopframework/ProxyFactoryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day3/aopframework/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day3/thread/BlockingQueueCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day3/thread/BlockingQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day3/thread/ConditionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day3/thread/CountdownLatchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day3/thread/CyclicBarrierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day3/thread/ExchangerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day3/thread/FutureTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day3/thread/LockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day3/thread/SemaphoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day3/thread/SingleThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day3/thread/ThreadLocalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day3/thread/ThreadPoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day3/thread/TimerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/day3/thread/TraditionalThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/BlockingQueueCommunication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/BlockingQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/CacheDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/CallableAndFuture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/CollectionModifyExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/ConditionCommunication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/CountdownLatchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/CyclicBarrierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/ExchangerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/LockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/MultiThreadShareData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/ReadWriteLockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/SemaphoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/ThreadLocalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/ThreadPoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/ThreadScopeShareData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/ThreeConditionCommunication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/TraditionalThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/TraditionalThreadCommunication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/TraditionalThreadSynchronized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/TraditionalTimerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/queue/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/read/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/syn/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/base/BaseObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/constant/CommonConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/constant/PluginType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/element/BoolColumn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/element/BytesColumn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/element/Column.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/element/ColumnCast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/element/DateColumn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/element/DoubleColumn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/element/LongColumn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/element/OverFlowUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/element/Record.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/element/StringColumn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/exception/CommonErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/exception/DataXException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/exception/ExceptionTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/plugin/AbstractJobPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/plugin/AbstractPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/plugin/AbstractTaskPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/plugin/JobPluginCollector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/plugin/PluginCollector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/plugin/Pluginable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/plugin/RecordReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/plugin/RecordSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/plugin/TaskPluginCollector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/spi/ErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/spi/Hook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/spi/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/spi/Writer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/statistics/PerfRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/statistics/PerfTrace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/statistics/VMInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/util/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/util/FilterUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/util/HostUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/util/ListUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/util/RangeSplitUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/util/RetryUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/common/util/StrUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/AbstractContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/container/util/HookInvoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/container/util/JobAssignUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/job/JobContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/job/meta/ExecuteMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/job/meta/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/job/scheduler/AbstractScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/job/scheduler/processinner/ProcessInnerScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/job/scheduler/processinner/StandAloneScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/statistics/communication/LocalTGCommunicationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/statistics/container/collector/AbstractCollector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/statistics/container/collector/ProcessInnerCollector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/statistics/container/communicator/AbstractContainerCommunicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/statistics/container/communicator/job/StandAloneJobContainerCommunicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/statistics/container/communicator/taskgroup/AbstractTGContainerCommunicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/statistics/container/communicator/taskgroup/StandaloneTGContainerCommunicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/statistics/container/report/AbstractReporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/statistics/container/report/ProcessInnerReporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/statistics/plugin/DefaultJobPluginCollector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/statistics/plugin/task/AbstractTaskPluginCollector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/statistics/plugin/task/HttpPluginCollector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/statistics/plugin/task/StdoutPluginCollector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/statistics/plugin/task/util/DirtyRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/taskgroup/TaskGroupContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/taskgroup/TaskMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/taskgroup/runner/AbstractRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/taskgroup/runner/ReaderRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/taskgroup/runner/TaskGroupContainerRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/taskgroup/runner/WriterRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/transport/channel/Channel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/transport/channel/memory/MemoryChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/transport/exchanger/BufferedRecordExchanger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/transport/exchanger/BufferedRecordTransformerExchanger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/transport/exchanger/RecordExchanger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/transport/exchanger/TransformerExchanger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/transport/record/DefaultRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/transport/record/TerminateRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/transport/transformer/ComplexTransformerProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/transport/transformer/FilterTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/transport/transformer/GroovyTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/transport/transformer/GroovyTransformerStaticUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/transport/transformer/PadTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/transport/transformer/ReplaceTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/transport/transformer/SubstrTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/transport/transformer/TransformerErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/transport/transformer/TransformerExecution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/transport/transformer/TransformerExecutionParas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/transport/transformer/TransformerInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/transport/transformer/TransformerRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/util/ClassSize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/util/ClassUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/util/ConfigParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/util/ConfigurationValidate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/util/ErrorRecordChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/util/ExceptionTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/util/FrameworkErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/util/HttpClientUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/util/SecretUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/util/TransformerUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/util/container/ClassLoaderSwapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/util/container/CoreConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/util/container/JarLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/core/util/container/LoadUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/dataxservice/face/domain/enums/EnumStrVal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/dataxservice/face/domain/enums/EnumVal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/dataxservice/face/domain/enums/ExecuteMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/dataxservice/face/domain/enums/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/reader/ftpreader/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/reader/ftpreader/FtpHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/reader/ftpreader/FtpReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/reader/ftpreader/FtpReaderErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/reader/ftpreader/Key.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/reader/ftpreader/SftpHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/reader/ftpreader/StandardFtpHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/unstructuredstorage/reader/ColumnEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/unstructuredstorage/reader/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/unstructuredstorage/reader/ExpandLzopInputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/unstructuredstorage/reader/Key.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/unstructuredstorage/reader/UnstructuredStorageReaderErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/unstructuredstorage/reader/UnstructuredStorageReaderUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/unstructuredstorage/reader/ZipCycleInputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/unstructuredstorage/writer/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/unstructuredstorage/writer/Key.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/unstructuredstorage/writer/TextCsvWriterManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/unstructuredstorage/writer/UnstructuredStorageWriterErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/unstructuredstorage/writer/UnstructuredStorageWriterUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/unstructuredstorage/writer/UnstructuredWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/writer/ftpwriter/FtpWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/writer/ftpwriter/FtpWriterErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/writer/ftpwriter/Key.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/writer/ftpwriter/util/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/writer/ftpwriter/util/IFtpHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/writer/ftpwriter/util/SftpHelperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/plugin/writer/ftpwriter/util/StandardFtpHelperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/transformer/ComplexTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/datax/transformer/Transformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/sql/parser/CharTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/sql/parser/LayoutCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/support/json/JSONParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/support/json/JSONUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/support/json/JSONWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/support/logging/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/support/logging/LogFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/support/logging/NoLoggingImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/support/logging/Resources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/util/Base64.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/util/DaemonThreadFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/util/DruidWebUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/util/FnvHash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/util/HexBin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/util/Histogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/util/HttpClientUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/util/JMXUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/util/JdbcUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/util/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/util/ListDG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/util/MapComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/util/PatternMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/util/ResultSetConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/util/ServletPathMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/util/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/util/TransactionInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/druid/util/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/Extension.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/Parameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/Resetable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/URL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/Version.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/beanutil/JavaBeanAccessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/beanutil/JavaBeanDescriptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/beanutil/JavaBeanSerializeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/bytecode/ClassGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/bytecode/Mixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/bytecode/NoSuchMethodException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/bytecode/NoSuchPropertyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/bytecode/Proxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/bytecode/Wrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/compiler/Compiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/compiler/support/AbstractCompiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/compiler/support/AdaptiveCompiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/compiler/support/ClassUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/compiler/support/JavassistCompiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/compiler/support/JdkCompiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/extension/Activate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/extension/Adaptive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/extension/ExtensionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/extension/ExtensionLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/extension/factory/AdaptiveExtensionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/extension/factory/SpiExtensionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/io/Bytes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/io/StreamUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/io/UnsafeByteArrayInputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/io/UnsafeByteArrayOutputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/io/UnsafeStringReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/io/UnsafeStringWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/json/GenericJSONConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/json/J2oVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/json/JSON.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/json/JSONArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/json/JSONConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/json/JSONNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/json/JSONObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/json/JSONReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/json/JSONToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/json/JSONVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/json/JSONWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/json/ParseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/json/Yylex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/logger/Level.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/logger/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/logger/LoggerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/logger/LoggerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/logger/jcl/JclLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/logger/jcl/JclLoggerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/logger/jdk/JdkLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/logger/jdk/JdkLoggerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/logger/log4j/Log4jLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/logger/log4j/Log4jLoggerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/logger/slf4j/Slf4jLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/logger/slf4j/Slf4jLoggerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/logger/support/FailsafeLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/status/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/status/StatusChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/status/support/LoadStatusChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/status/support/MemoryStatusChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/status/support/StatusUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/store/DataStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/store/support/SimpleDataStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/Assert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/AtomicPositiveInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/ClassHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/CollectionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/CompatibleTypeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/ConcurrentHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/ConfigUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/DubboAppender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/ExecutorUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/Holder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/IOUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/JVMUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/LogHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/LogUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/NamedThreadFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/NetUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/PojoUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/ReflectUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/UrlUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/designDemo/Observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/designDemo/Observer/Observerable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/designDemo/Observer/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/designDemo/Observer/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/designDemo/Observer/WechatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/designDemo/TomcatObserver/Lifecycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/designDemo/TomcatObserver/LifecycleEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/designDemo/TomcatObserver/LifecycleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/designDemo/TomcatObserver/LifecycleListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/designDemo/TomcatObserver/LifecycleSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/designDemo/eventBus/two/EventBusChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/designDemo/eventBus/two/UserThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/designDemo/search/DateFormatAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/designDemo/search/FileIndexer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/designDemo/search/RdbIndexer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/designDemo/search/Resultset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/designDemo/search/action/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/designDemo/search/action/IndexService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/designDemo/search/action/Indexer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/designDemo/search/action/SearchService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/guava/DefaultTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/guava/ImmutableCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/guava/MapsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/guava/ObjectsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/guava/OptionalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/guava/OrderingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/guava/PreconditionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/guava/READEME" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/Pattern/PatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/SerializableDemo/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/SerializableDemo/SerializableZipFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/SortDemo1/SortDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/ThreadDemo/DelayQueueDemoOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/ThreadDemo/ExecutorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/ThreadDemo/FutureTaskTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/ThreadDemo/InteruptDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/ThreadDemo/LockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/ThreadDemo/LogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/ThreadDemo/NonInterrupptableSocketThreadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/ThreadDemo/NonInterruptableSocketThreadTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/ThreadDemo/TestJoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/ThreadDemo/TestShutdownHook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/ThreadDemo/TestThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/ThreadDemo/ThreadExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/ThreadDemo/ThreadPollTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/ThreadDemo/ThreadPool2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/ThreadDemo/ThreadPoolNameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/ThreadDemo/ThreadPoolShutdownTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/ThreadDemo/ThreadPoolUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/ThreadDemo/ThreadTransitivityTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/ThreadDemo/Uninterruptible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/charDemo/transfer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/classDemo/ClassDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/classDemo/ClassDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/classDemo/ClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/classloader/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/classloader/Hot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/classloader/HotSwapURLClassLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/classloader/SimpleURLClassLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/classloader/TestClassUnLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/classloader/TestHotSwap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/cloneDemo/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/cloneDemo/ArrCloneDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/cloneDemo/CloneDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/cloneDemo/test/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/dataDemo/DataDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/enumDemo/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/enumDemo/ColorDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/equalDemo/EqualDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/exception/ExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/fanxing/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/fileDemo/FileTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/fileDemo/test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/floatDemo/FloatDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/floatDemo/NanInfinity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/forDemo/ForTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/hash/HaseSetDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/httpDemo/HttpUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/httpDemo/get/HttpUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/httpDemo/post/HttpUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/ifelseDemo/IfElseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/inner/InnerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/intanceof/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/ioDemo/ByteBufferTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jmxDemo/HelloAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jmxDemo/HelloMBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jmxDemo/JMXClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/junit4/ClassUnderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/junit4/ExpectedExceptionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/junit4/TestJNI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/junit4/TestTimeoutCase1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jvmDemo/ClassLoaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jvmDemo/ClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jvmDemo/DaemonRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jvmDemo/Dichotomy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jvmDemo/FinalizeEscapeGC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jvmDemo/HashSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jvmDemo/HeapOOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jvmDemo/JVMINFO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jvmDemo/JavaVMStackOOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jvmDemo/JavaVMStackSOF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jvmDemo/MinorGC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jvmDemo/MinorGCTEST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jvmDemo/Pretenure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jvmDemo/ReferenceCountingGC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jvmDemo/RuntimeConstantPoolOOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jvmDemo/RuntimeConstantPoolOOM1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jvmDemo/SoftReferenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jvmDemo/StrongReferenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jvmDemo/TenuringThreshold.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jvmDemo/TenuringThreshold2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jvmDemo/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jvmDemo/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/jvmDemo/WindowsInfoUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/lamda/FlatMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/lamda/FunctionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/log/logDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/loop/ForDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/mapDemo/IdentityHashMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/mapDemo/ImmutableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/mapDemo/MapTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/mysqlDemo/MySQLDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/nativeDemo/TestAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/pathsDemo/pathsTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/proxyDemo/ProxyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/reference/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/resourceDemo/ResouceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/stringDemo/FormatDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/stringDemo/InternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/reflections/cboard/DataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/reflections/cboard/DataProviderManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/reflections/cboard/DatasourceParameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/reflections/cboard/Initializing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/reflections/cboard/ProviderName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/reflections/other/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/utils/CookieUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/utils/ExceptionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/utils/FtpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/utils/HttpClientUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/utils/IDUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/main/java/utils/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/common/base/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/common/element/BoolColumnTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/common/element/ColumnCastTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/common/element/DateColumnTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/common/element/DoubleColumnTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/common/element/LongColumnTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/common/element/ScientificTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/common/element/StringColumnTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/common/exception/DataXExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/common/exception/FakeErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/common/statistics/VMInfoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/common/util/ConfigurationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/common/util/FilterUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/common/util/ListUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/common/util/RangeSplitUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/common/util/RetryUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/common/util/StrUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/EngineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/constant/CoreConstantTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/container/ClassLoaderSwapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/container/JobAssignUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/container/JobContainerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/container/LoadUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/container/TaskGroupContainerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/faker/FakeExceptionReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/faker/FakeExceptionWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/faker/FakeGroovyTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/faker/FakeJobContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/faker/FakeLongTimeWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/faker/FakeOneReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/faker/FakeReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/faker/FakeReplaceTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/faker/FakeSubstrTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/faker/FakeWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/scaffold/ColumnProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/scaffold/ConfigurationProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/scaffold/RecordProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/scaffold/base/CaseInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/scheduler/ErrorRecordLimitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/scheduler/standalone/StandAloneSchedulerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/scheduler/standalone/StandAloneTestJobCollector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/scheduler/standalone/StandAloneTestTaskGroupContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/statistics/collector/ProcessInnerCollectorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/statistics/communication/CommunicationJsonifyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/statistics/communication/CommunicationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/statistics/communication/LocalTaskGroupCommunicationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/statistics/reporter/ProcessInnerReporterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/taskgroup/TaskMonitorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/transport/channel/memory/MemoryChannelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/transport/exchanger/RecordExchangerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/transport/record/RecordTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/transport/transformer/FilterTransformerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/transport/transformer/GroovyTransformerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/transport/transformer/PadTransformerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/transport/transformer/ReplaceTransformerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/transport/transformer/SubstrTransformerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/transport/transformer/TransformerRegistryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/util/ClassUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/util/ConfigParserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/util/HttpClientUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/util/ReflectUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/datax/core/util/SecretUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/druid/Bug_for_alibank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/druid/DragoonMetaInfTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/druid/LockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/druid/TestIdel3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/druid/TestLRU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/druid/TestLockCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/druid/TestReplaceLicense.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/druid/TestUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/druid/bvt/AlipayUseCaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/druid/bvt/utils/DaemonThreadFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/druid/bvt/utils/Fnv64_lower_test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/druid/bvt/utils/HistogramTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/druid/bvt/utils/JSONWriterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/druid/util/DropTables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/druid/util/MapComparatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/druid/util/ServletPathMathcherTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/dubbo/common/URLTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/dubbo/common/extensionloader/ext6_inject/impl/DaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/dubbo/common/extensionloader/ext6_inject/impl/Ext6Impl1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/dubbo/common/extensionloader/ext6_inject/impl/Ext6Impl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/dubbo/common/io/BytesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/dubbo/common/io/StreamUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/dubbo/common/json/JSONReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/dubbo/common/json/JSONTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/dubbo/common/json/JSONWriterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/dubbo/common/json/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/dubbo/common/model/BizException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/dubbo/common/model/BizExceptionNoDefaultConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/com/alibaba/dubbo/common/model/SerializablePerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/src/test/java/test/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/target/classes/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/target/classes/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/target/classes/echarts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/target/classes/echarts.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/target/classes/ip.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/target/classes/template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/collection/ConcurrentHashMap7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/collection/ConcurrentHashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/collection/ConcurrentLinkedQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/collection/DelayQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/collection/HashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/collection/PriorityQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/collection/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/collection/SynchronousQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/concurrent/ConditionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructure/src/main/java/com/queue/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/TraditionalThreadCommunication.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/TraditionalThreadCommunication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk/src/main/java/echarts/samples/bar/BarTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/src/main/java/echarts/samples/bar/BarTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk/src/main/java/guava/READEME" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/src/main/java/guava/READEME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/classloader/SimpleURLClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdk/src/main/java/javaDemo/classloader/SimpleURLClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spark/target/" />
     <ignored path="$PROJECT_DIR$/jdk/target/" />
+    <ignored path="$PROJECT_DIR$/algorithm/target/" />
+    <ignored path="$PROJECT_DIR$/Interview/target/" />
+    <ignored path="$PROJECT_DIR$/dataStructure/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -612,6 +41,9 @@
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/tools$ProductConsumer.ic" NAME="ProductConsumer Coverage Results" MODIFIED="1550452470433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.internet.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/tools$SyslogUdpTest.ic" NAME="SyslogUdpTest Coverage Results" MODIFIED="1547367826514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>syslog.udp.*</FILTER>
     </SUITE>
@@ -620,7 +52,7 @@
     <session id="-1352053351">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="37" />
+          <entry key="project.closed" value="39" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.13" value="2" />
@@ -632,27 +64,30 @@
           <entry key="project.open.time.3" value="5" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.6" value="5" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="41" />
+          <entry key="project.opened" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ApplicationFilterChain" value="1" />
           <entry key="ApplicationFilterConfig" value="1" />
-          <entry key="READEME" value="1" />
-          <entry key="class" value="21" />
+          <entry key="READEME" value="2" />
+          <entry key="README" value="1" />
+          <entry key="class" value="33" />
           <entry key="classpath" value="2" />
           <entry key="csv" value="1" />
           <entry key="html" value="4" />
-          <entry key="java" value="601" />
+          <entry key="java" value="768" />
           <entry key="js" value="2" />
-          <entry key="md" value="4" />
+          <entry key="md" value="6" />
           <entry key="pom" value="1" />
           <entry key="project" value="1" />
           <entry key="properties" value="4" />
@@ -660,21 +95,21 @@
           <entry key="template" value="1" />
           <entry key="test" value="2" />
           <entry key="txt" value="1" />
-          <entry key="xml" value="8" />
+          <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="21" />
+          <entry key="CLASS" value="33" />
           <entry key="Eclipse" value="3" />
           <entry key="HTML" value="4" />
-          <entry key="JAVA" value="601" />
+          <entry key="JAVA" value="768" />
           <entry key="JavaScript" value="2" />
-          <entry key="Markdown" value="4" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Markdown" value="6" />
+          <entry key="PLAIN_TEXT" value="9" />
           <entry key="Properties" value="4" />
           <entry key="UML" value="2" />
-          <entry key="XML" value="9" />
+          <entry key="XML" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -682,12 +117,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="READEME" value="2" />
-          <entry key="dummy" value="27" />
+          <entry key="README" value="15" />
+          <entry key="dummy" value="34" />
           <entry key="gitignore" value="15" />
-          <entry key="java" value="7677" />
+          <entry key="java" value="17893" />
+          <entry key="md" value="28" />
           <entry key="template" value="1" />
           <entry key="txt" value="36" />
-          <entry key="xml" value="93" />
+          <entry key="xml" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -695,9 +132,10 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="15" />
-          <entry key="JAVA" value="7677" />
-          <entry key="PLAIN_TEXT" value="66" />
-          <entry key="XML" value="93" />
+          <entry key="JAVA" value="17893" />
+          <entry key="Markdown" value="28" />
+          <entry key="PLAIN_TEXT" value="88" />
+          <entry key="XML" value="115" />
         </counts>
       </usages-collector>
     </session>
@@ -708,48 +146,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jdk/src/test/java/com/alibaba/dubbo/common/utils/PojoUtilsTest.java">
+        <entry file="file://$PROJECT_DIR$/jdk/src/main/java/echarts/samples/bar/BarTest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="498" column="37" selection-start-line="498" selection-start-column="37" selection-end-line="498" selection-end-column="37" />
-              <folding>
-                <element signature="e#16137#16153#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/PojoUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2187">
-              <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
-              <folding>
-                <element signature="e#3406#3407#0" expanded="true" />
-                <element signature="e#3484#3485#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-31">
+              <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/LRUCache.java">
+        <entry file="file://$PROJECT_DIR$/jdk/src/main/java/echarts/samples/bar/BarTest1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="41" column="39" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="39" />
+            <state relative-caret-position="122">
+              <caret line="59" column="28" lean-forward="true" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java">
+        <entry file="file://$PROJECT_DIR$/jdk/src/main/java/echarts/samples/bar/BarTest4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="281" column="20" selection-start-line="281" selection-start-column="20" selection-end-line="281" selection-end-column="20" />
-              <folding>
-                <element signature="e#24298#24299#0" expanded="true" />
-                <element signature="e#24363#24364#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="55">
+              <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jdk/src/main/java/echarts/samples/bar/BarTest12.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="70" column="85" lean-forward="true" selection-start-line="70" selection-start-column="73" selection-end-line="70" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jdk/src/main/java/echarts/samples/scatter/ScatterTest6.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="84" column="63" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -769,27 +205,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>淘宝</find>
-      <find>lang</find>
-      <find>bloomfi</find>
-      <find>deserialize</find>
-      <find>tostring</find>
-      <find>isStrictlyOrdered</find>
-      <find>subscriberMethodsCache</find>
-      <find>getResourceAsStream</find>
-      <find>template</find>
-      <find>AxisLabel</find>
-      <find>textStyle</find>
-      <find>title</find>
-      <find>SYSLOGUDP</find>
-      <find>堆栈</find>
-      <find>freeMemory</find>
-      <find>[</find>
-      <find>dump</find>
-      <find>jvm</find>
-      <find>clear</find>
-      <find>delta</find>
-      <find>scheduleAtFixedRate</find>
       <find>refl</find>
       <find>post</find>
       <find>mysql</find>
@@ -799,6 +214,27 @@
       <find>54780</find>
       <find>LinkedHashMap</find>
       <find>put</find>
+      <find>Delayed</find>
+      <find>poll</find>
+      <find>notify</find>
+      <find>delayQueue</find>
+      <find>first</find>
+      <find>compareTo</find>
+      <find>0.75</find>
+      <find>loadFactor</find>
+      <find>sync</find>
+      <find>resize</find>
+      <find>tostring</find>
+      <find>hashcode</find>
+      <find>remove</find>
+      <find>entrySet</find>
+      <find>scanAndLockForPut</find>
+      <find>ree</find>
+      <find>lock</find>
+      <find>reentrantlock</find>
+      <find>rehash</find>
+      <find>ensureSegment</find>
+      <find>formatter</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -819,46 +255,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/echarts/samples/rarda/RadarTest1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/echarts/samples/scatter/ScatterTest2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/echarts/samples/scatter/ScatterTest3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/echarts/samples/scatter/ScatterTest6.java" />
-        <option value="$PROJECT_DIR$/src/main/java/echarts/FromJsonTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/echarts/TimedGenChart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/echarts/OptionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/template" />
-        <option value="$PROJECT_DIR$/src/main/java/echarts/samples/bar/BarTest2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/echarts/EchartGenerate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/echarts/samples/bar/BarTest1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bigdata/anomaly/iforest/ITree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bigdata/anomaly/detection/ramo/klevis/ml/fraud/data/Tuple.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bigdata/anomaly/iforest/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bigdata/anomaly/detection/ramo/klevis/ml/fraud/algorithm/AlgorithmConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bigdata/anomaly/detection/ramo/klevis/ml/fraud/algorithm/AlgorithmTemplateExecution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bigdata/anomaly/detection/ramo/klevis/ml/fraud/algorithm/FraudDetectionAlgorithmJavaStream.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bigdata/anomaly/detection/ramo/klevis/ml/fraud/algorithm/IFraudDetectionAlgorithm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bigdata/anomaly/detection/ramo/klevis/ml/fraud/data/ResultsSummary.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bigdata/anomaly/detection/ramo/klevis/ml/fraud/algorithm/FraudDetectionAlgorithmSpark.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bigdata/anomaly/detection/ramo/klevis/ml/fraud/Run.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bigdata/anomaly/detection/DataProcess.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bigdata/anomaly/detection/Demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bigdata/anomaly/detection/utils/Utils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bigdata/anomaly/detection/tools/EsClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bigdata/anomaly/detection/tools/StatisticalAnalysis.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bigdata/anomaly/detection/tools/RedisClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bigdata/anomaly/detection/tools/FeatureProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bigdata/anomaly/detection/strategies/unsupervisedlearning/KMeansCluster.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bigdata/anomaly/detection/Test.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/javaDemo/io.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javaDemo/ioDemo/ByteBufferTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/TestThreadPool.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/alibaba/datax/common/statistics/VMInfoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/ThreadPoolUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/ThreadPool2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/Uninterruptible.java" />
-        <option value="$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/ThreadPoolShutdownTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/javaDemo/ThreadDemo/ThreadPoolNameTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/javaDemo/mapDemo/MapTest2.java" />
         <option value="$PROJECT_DIR$/src/main/java/javaDemo/mapDemo/ImmutableTest.java" />
@@ -870,6 +266,46 @@
         <option value="$PROJECT_DIR$/jdk/src/main/java/bigdata/bloomFilter/RedisBitmaps.java" />
         <option value="$PROJECT_DIR$/jdk/src/main/resources/ip.txt" />
         <option value="$PROJECT_DIR$/jdk/src/main/java/bigdata/bloomFilter/RedisConnectionPool.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/sort/README" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/sort/README.md" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/sort/DuplicateRemoval.java" />
+        <option value="$PROJECT_DIR$/Interview/src/main/java/com/yongyou/YongYou.java" />
+        <option value="$PROJECT_DIR$/Interview/src/main/java/com/yongyou/DuplicateRemoval.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/sort/DirectInsertion.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/sort/DirectInsertionSort.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/sort/JdkArraysSort.java" />
+        <option value="$PROJECT_DIR$/Interview/src/main/java/com/internet/ProductConsumer.java" />
+        <option value="$PROJECT_DIR$/Interview/src/main/java/com/internet/Page.java" />
+        <option value="$PROJECT_DIR$/Interview/src/main/java/com/internet/LRU.java" />
+        <option value="$PROJECT_DIR$/Interview/src/main/java/com/internet/LinkedReserve.java" />
+        <option value="$PROJECT_DIR$/Interview/src/main/java/com/internet/LinkedReverse.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/sort/MergeSort.java" />
+        <option value="$PROJECT_DIR$/jdk/src/main/java/javaDemo/classloader/SimpleURLClassLoader.java" />
+        <option value="$PROJECT_DIR$/Interview/src/main/java/com/Test.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/sort/QueryHalf.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/search/QuickSort.java" />
+        <option value="$PROJECT_DIR$/algorithm/pom.xml" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/sort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/sort/SelectSort.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/sort/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/link/LinkedTable.java" />
+        <option value="$PROJECT_DIR$/jdk/src/main/java/guava/READEME.md" />
+        <option value="$PROJECT_DIR$/dataStructure/src/main/java/com/collection/PriorityQueueTest.java" />
+        <option value="$PROJECT_DIR$/dataStructure/src/main/java/com/collection/ConcurrentLinkedQueueTest.java" />
+        <option value="$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/TraditionalThreadCommunication.java" />
+        <option value="$PROJECT_DIR$/dataStructure/src/main/java/com/concurrent/ConditionTest.java" />
+        <option value="$PROJECT_DIR$/dataStructure/src/main/java/com/collection/DelayQueueCacheTest.java" />
+        <option value="$PROJECT_DIR$/dataStructure/src/main/java/com/collection/DelayQueueTest.java" />
+        <option value="$PROJECT_DIR$/dataStructure/src/main/java/com/collection/SynchronousQueueTest.java" />
+        <option value="$PROJECT_DIR$/dataStructure/src/main/java/com/collection/HashMapTest.java" />
+        <option value="$PROJECT_DIR$/dataStructure/src/main/java/com/collection/ConcurrentHashMapTest.java" />
+        <option value="$PROJECT_DIR$/dataStructure/src/main/java/com/collection/ConcurrentHashMap.java" />
+        <option value="$PROJECT_DIR$/dataStructure/src/main/java/com/collection/ConcurrentHashMap7.java" />
+        <option value="$PROJECT_DIR$/dataStructure/src/main/java/com/Test.java" />
+        <option value="$PROJECT_DIR$/jdk/src/main/java/echarts/samples/scatter/ScatterTest6.java" />
+        <option value="$PROJECT_DIR$/jdk/src/main/java/echarts/samples/bar/BarTest4.java" />
+        <option value="$PROJECT_DIR$/jdk/src/main/java/echarts/samples/bar/BarTest12.java" />
+        <option value="$PROJECT_DIR$/jdk/src/main/java/echarts/samples/bar/BarTest1.java" />
       </list>
     </option>
   </component>
@@ -909,10 +345,114 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="15" />
-    <option name="y" value="387" />
+    <option name="x" value="33" />
+    <option name="y" value="61" />
     <option name="width" value="1936" />
     <option name="height" value="923" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Ali-Check</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code quality toolsCSS</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Dependency issuesJava</id>
+          </State>
+          <State>
+            <id>Faces Model</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>ImportsJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Modularization issuesJava</id>
+          </State>
+          <State>
+            <id>Packaging issuesJava</id>
+          </State>
+          <State>
+            <id>Pattern Validation</id>
+          </State>
+          <State>
+            <id>RESTful Web Service</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring IntegrationSpring</id>
+          </State>
+          <State>
+            <id>Spring OSGiSpring</id>
+          </State>
+          <State>
+            <id>Spring Web ServicesSpring</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Web Services</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AlibabaAvoidCommentBehindStatement</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -932,6 +472,242 @@
               <item name="tools" type="b2602c69:ProjectViewProjectNode" />
               <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="echarts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="echarts" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="echarts" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="bar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="echarts" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="scatter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="atomic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="locks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="misc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.github.abel533:ECharts:3.0.0.2" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.github.abel533:ECharts:3.0.0.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="ECharts-3.0.0.2.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.github.abel533:ECharts:3.0.0.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="ECharts-3.0.0.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="echarts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.github.abel533:ECharts:3.0.0.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="ECharts-3.0.0.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="echarts" type="462c0819:PsiDirectoryNode" />
+              <item name="axis" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -942,8 +718,8 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/github/tools/src/main/java/javaDemo/reference/Employee.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550293605097" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551057320706" />
+    <property name="last_opened_file_path" value="F:/gitlab" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -976,7 +752,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RedisBloomFilterTest.test">
+  <component name="RunManager" selected="JUnit.BarTest1.test">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -1021,13 +797,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaDemo.mapDemo.MapTest2" />
-      <module name="tools" />
+    <configuration name="ConcurrentHashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.collection.ConcurrentHashMapTest" />
+      <module name="dataStructure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaDemo.mapDemo.*" />
+          <option name="PATTERN" value="com.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1035,13 +811,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySQLDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaDemo.mysqlDemo.MySQLDemo" />
-      <module name="tools" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Test" />
+      <module name="dataStructure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaDemo.mysqlDemo.*" />
+          <option name="PATTERN" value="com.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1090,50 +866,50 @@
       <setting name="depsClasspath" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="ClassTest.ClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tools" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaDemo.classDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="javaDemo.classDemo" />
-      <option name="MAIN_CLASS_NAME" value="javaDemo.classDemo.ClassTest" />
-      <option name="METHOD_NAME" value="ClassTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImmutableTest.testGuavaImmutable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tools" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaDemo.mapDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="javaDemo.mapDemo" />
-      <option name="MAIN_CLASS_NAME" value="javaDemo.mapDemo.ImmutableTest" />
-      <option name="METHOD_NAME" value="testGuavaImmutable" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RedisBloomFilterTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BarTest12.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jdk" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bigdata.bloomFilter.*" />
+          <option name="PATTERN" value="echarts.samples.bar.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bigdata.bloomFilter" />
-      <option name="MAIN_CLASS_NAME" value="bigdata.bloomFilter.RedisBloomFilterTest" />
+      <option name="PACKAGE_NAME" value="echarts.samples.bar" />
+      <option name="MAIN_CLASS_NAME" value="echarts.samples.bar.BarTest12" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BarTest1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="echarts.samples.bar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="echarts.samples.bar" />
+      <option name="MAIN_CLASS_NAME" value="echarts.samples.bar.BarTest1" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BarTest4.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="echarts.samples.bar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="echarts.samples.bar" />
+      <option name="MAIN_CLASS_NAME" value="echarts.samples.bar.BarTest4" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1208,19 +984,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MapTest2" />
-      <item itemvalue="JUnit.ImmutableTest.testGuavaImmutable" />
-      <item itemvalue="JUnit.ClassTest.ClassTest" />
-      <item itemvalue="Application.MySQLDemo" />
-      <item itemvalue="JUnit.RedisBloomFilterTest.test" />
+      <item itemvalue="Application.ConcurrentHashMapTest" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.BarTest1.test" />
+      <item itemvalue="JUnit.BarTest4.test" />
+      <item itemvalue="JUnit.BarTest12.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RedisBloomFilterTest.test" />
-        <item itemvalue="Application.MySQLDemo" />
-        <item itemvalue="JUnit.ClassTest.ClassTest" />
-        <item itemvalue="JUnit.ImmutableTest.testGuavaImmutable" />
-        <item itemvalue="Application.MapTest2" />
+        <item itemvalue="JUnit.BarTest1.test" />
+        <item itemvalue="JUnit.BarTest12.test" />
+        <item itemvalue="JUnit.BarTest4.test" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ConcurrentHashMapTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1287,6 +1063,8 @@
       <workItem from="1548763071313" duration="2567000" />
       <workItem from="1550229232117" duration="1697000" />
       <workItem from="1550231346144" duration="2473000" />
+      <workItem from="1550298111051" duration="16676000" />
+      <workItem from="1550456432508" duration="85122000" />
     </task>
     <task id="LOCAL-00001" summary="aaaa">
       <created>1537164074394</created>
@@ -1358,49 +1136,91 @@
       <option name="project" value="LOCAL" />
       <updated>1550231993051</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="aaaa">
+      <created>1550295389329</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1550295389329</updated>
+    </task>
+    <task id="LOCAL-00012" summary="aaaa">
+      <created>1550312480272</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1550312480272</updated>
+    </task>
+    <task id="LOCAL-00013" summary="aaaa">
+      <created>1550374264254</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1550374264254</updated>
+    </task>
+    <task id="LOCAL-00014" summary="aaaa">
+      <created>1550465283222</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1550465283222</updated>
+    </task>
+    <task id="LOCAL-00015" summary="aaaa">
+      <created>1550475565756</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1550475565756</updated>
+    </task>
+    <task id="LOCAL-00016" summary="aaaa">
+      <created>1550574941665</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1550574941665</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClassTest_ClassTest - 2019.01.24 at 17h 16m 12s.xml">
-      <configuration name="ClassTest.ClassTest" configurationId="JUnit" />
+    <history-entry file="BarTest1_test - 2019.02.22 at 17h 02m 03s.xml">
+      <configuration name="BarTest1.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClassTest_ClassTest - 2019.01.24 at 17h 16m 26s.xml">
-      <configuration name="ClassTest.ClassTest" configurationId="JUnit" />
+    <history-entry file="BarTest1_test - 2019.02.22 at 17h 17m 19s.xml">
+      <configuration name="BarTest1.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RedisBloomFilterTest_test - 2019.02.15 at 19h 39m 19s.xml">
-      <configuration name="RedisBloomFilterTest.test" configurationId="JUnit" />
+    <history-entry file="BarTest1_test - 2019.02.22 at 17h 24m 48s.xml">
+      <configuration name="BarTest1.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RedisBloomFilterTest_test - 2019.02.15 at 19h 40m 09s.xml">
-      <configuration name="RedisBloomFilterTest.test" configurationId="JUnit" />
+    <history-entry file="BarTest4_test - 2019.02.22 at 17h 25m 16s.xml">
+      <configuration name="BarTest4.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RedisBloomFilterTest_test - 2019.02.15 at 19h 40m 20s.xml">
-      <configuration name="RedisBloomFilterTest.test" configurationId="JUnit" />
+    <history-entry file="BarTest12_test - 2019.02.22 at 17h 26m 04s.xml">
+      <configuration name="BarTest12.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RedisBloomFilterTest_test - 2019.02.15 at 19h 41m 11s.xml">
-      <configuration name="RedisBloomFilterTest.test" configurationId="JUnit" />
+    <history-entry file="BarTest1_test - 2019.02.22 at 17h 31m 25s.xml">
+      <configuration name="BarTest1.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RedisBloomFilterTest_test - 2019.02.15 at 19h 43m 05s.xml">
-      <configuration name="RedisBloomFilterTest.test" configurationId="JUnit" />
+    <history-entry file="BarTest1_test - 2019.02.22 at 17h 33m 38s.xml">
+      <configuration name="BarTest1.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RedisBloomFilterTest_test - 2019.02.15 at 19h 43m 35s.xml">
-      <configuration name="RedisBloomFilterTest.test" configurationId="JUnit" />
+    <history-entry file="BarTest1_test - 2019.02.22 at 17h 43m 52s.xml">
+      <configuration name="BarTest1.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RedisBloomFilterTest_test - 2019.02.15 at 19h 51m 55s.xml">
-      <configuration name="RedisBloomFilterTest.test" configurationId="JUnit" />
+    <history-entry file="BarTest1_test - 2019.02.22 at 17h 48m 37s.xml">
+      <configuration name="BarTest1.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RedisBloomFilterTest_test - 2019.02.15 at 19h 53m 53s.xml">
-      <configuration name="RedisBloomFilterTest.test" configurationId="JUnit" />
+    <history-entry file="BarTest1_test - 2019.02.22 at 17h 50m 27s.xml">
+      <configuration name="BarTest1.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145488000" />
+    <option name="totallyTimeSpent" value="249031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.43958575" visible="true" weight="0.2473176" />
-      <window_info id="Structure" order="1" sideWeight="0.56041425" side_tool="true" weight="0.2473176" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.43872115" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.5612789" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -1410,8 +1230,8 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32796317" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5132336" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.36708862" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2945915" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.3521289" />
       <window_info anchor="bottom" id="Spring" order="4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1423,7 +1243,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32911393" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="15" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="15" weight="0.32911393" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24839056" />
@@ -1437,6 +1257,7 @@
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info anchor="right" id="Bean Validation" order="11" />
       <window_info anchor="right" id="BPMNPalette" order="12" />
+      <window_info anchor="right" id="Coverage" order="13" side_tool="true" weight="0.3299356" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1506,6 +1327,42 @@
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dataStructure/src/main/java/com/collection/ConcurrentLinkedQueueTest.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ConcurrentHashMap.java</url>
+          <line>1274</line>
+          <properties />
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dataStructure/src/main/java/com/collection/ConcurrentHashMap7.java</url>
+          <line>410</line>
+          <properties />
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dataStructure/src/main/java/com/collection/ConcurrentHashMap7.java</url>
+          <line>400</line>
+          <properties />
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dataStructure/src/main/java/com/Test.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dataStructure/src/main/java/com/Test.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1514,269 +1371,481 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/16.0.1/guava-16.0.1-sources.jar!/com/google/common/collect/ImmutableCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/mapDemo/MapTest2.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/mapDemo/ImmutableTest.java" />
-    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36099">
-          <caret line="1438" column="25" selection-start-line="1438" selection-start-column="25" selection-end-line="1438" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/classDemo/ClassTest.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.6.RELEASE/spring-context-4.0.6.RELEASE-sources.jar!/org/springframework/stereotype/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/reflections/cboard/DataProvider.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/reflections/cboard/DataProviderManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/reflections/cboard/DatasourceParameter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/reflections/cboard/Initializing.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/reflections/cboard/ProviderName.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/datax/core/util/HttpClientUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/alibaba/datax/core/faker/FakeExceptionReader.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/alibaba/datax/core/faker/FakeReader.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/druid/util/JdbcUtils.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/javaDemo/mysqlDemo/MySQLDemo.java" />
-    <entry file="file://$PROJECT_DIR$/spark/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/syslog/flume/Configurables.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/syslog/flume/EventBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/syslog/flume/SimpleEvent.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/syslog/flume/SyslogSourceConfigurationConstants.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/syslog/flume/SyslogUDPSource.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdk/src/main/resources/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdk/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="297" column="34" selection-start-line="297" selection-start-column="30" selection-end-line="297" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdk/src/main/java/javaDemo/junit4/ClassUnderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdk/src/main/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdk/src/main/java/bigdata/bitmap/B256Phone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdk/src/main/java/bigdata/bitmap/BitSetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.7.2/jedis-2.7.2-sources.jar!/redis/clients/jedis/Jedis.java">
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/BlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="2464" column="17" selection-start-line="2464" selection-start-column="17" selection-end-line="2464" selection-end-column="17" />
+          <caret line="179" column="45" lean-forward="true" selection-start-line="179" selection-start-column="45" selection-end-line="179" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/16.0.1/guava-16.0.1-sources.jar!/com/google/common/math/LongMath.java">
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/locks/Condition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="346" column="21" selection-start-line="346" selection-start-column="21" selection-end-line="346" selection-end-column="21" />
+        <state relative-caret-position="169">
+          <caret line="230" column="9" selection-start-line="230" selection-start-column="9" selection-end-line="230" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/16.0.1/guava-16.0.1-sources.jar!/com/google/common/hash/HashFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="131" column="17" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/16.0.1/guava-16.0.1-sources.jar!/com/google/common/hash/Hashing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="143" column="25" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.7.2/jedis-2.7.2-sources.jar!/redis/clients/jedis/Pipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.7.2/jedis-2.7.2-sources.jar!/redis/clients/jedis/JedisPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="84" column="15" selection-start-line="84" selection-start-column="15" selection-end-line="84" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdk/src/main/resources/ip.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdk/src/main/java/bigdata/bloomFilter/util/ConfigFileName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdk/src/main/java/bigdata/bloomFilter/RedisConnectionPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdk/src/main/java/bigdata/bloomFilter/util/RedisAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdk/src/main/java/bigdata/bloomFilter/PipelineExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdk/src/main/java/bigdata/bloomFilter/RedisBloomFilterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdk/src/main/java/bigdata/bloomFilter/RedisBloomFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-          <folding>
-            <element signature="e#1942#1943#0" expanded="true" />
-            <element signature="e#2024#2025#0" expanded="true" />
-            <element signature="e#2168#2169#0" expanded="true" />
-            <element signature="e#2201#2202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdk/src/main/java/bigdata/bloomFilter/RedisBloomFilterStrategies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdk/src/main/java/bigdata/bloomFilter/RedisBitmaps.java">
+    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/collection/ConcurrentLinkedQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
-          <caret line="113" column="29" selection-start-line="113" selection-start-column="29" selection-end-line="113" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jdk/src/main/java/bigdata/bloomFilter/JedisUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <caret line="43" column="19" lean-forward="true" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
           <folding>
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jdk/src/test/java/com/alibaba/dubbo/common/utils/PojoUtilsTest.java">
+    <entry file="file://$PROJECT_DIR$/Interview/src/main/java/com/internet/ProductConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="498" column="37" selection-start-line="498" selection-start-column="37" selection-end-line="498" selection-end-column="37" />
+        <state relative-caret-position="428">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
           <folding>
-            <element signature="e#16137#16153#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/PojoUtils.java">
+    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/collection/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdk/src/main/java/cn/itcast/heima2/TraditionalThreadCommunication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2187">
-          <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
+        <state relative-caret-position="675">
+          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="135" column="15" selection-start-line="135" selection-start-column="15" selection-end-line="135" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/Delayed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/concurrent/ConditionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/collection/DelayQueueCacheTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="1942" selection-start-line="1942" selection-end-line="1942" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="387" selection-start-line="387" selection-end-line="387" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="700" column="53" selection-start-line="700" selection-start-column="44" selection-end-line="700" selection-end-column="53" />
           <folding>
-            <element signature="e#3406#3407#0" expanded="true" />
-            <element signature="e#3484#3485#0" expanded="true" />
+            <element signature="e#12127#12128#0" expanded="true" />
+            <element signature="e#12158#12159#0" expanded="true" />
+            <element signature="e#12969#12970#0" expanded="true" />
+            <element signature="e#13025#13026#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java">
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/DelayQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="281" column="20" selection-start-line="281" selection-start-column="20" selection-end-line="281" selection-end-column="20" />
+        <state relative-caret-position="27">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
           <folding>
-            <element signature="e#24298#24299#0" expanded="true" />
-            <element signature="e#24363#24364#0" expanded="true" />
+            <element signature="e#4069#4070#0" expanded="true" />
+            <element signature="e#4100#4101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/SynchronousQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="412" column="14" selection-start-line="412" selection-start-column="14" selection-end-line="412" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/collection/SynchronousQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="e#323#332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="135" column="38" selection-start-line="135" selection-start-column="38" selection-end-line="135" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="972" column="18" lean-forward="true" selection-start-line="972" selection-start-column="18" selection-end-line="972" selection-end-column="18" />
+          <folding>
+            <element signature="e#8008#8009#0" expanded="true" />
+            <element signature="e#8036#8037#0" expanded="true" />
+            <element signature="e#8248#8249#0" expanded="true" />
+            <element signature="e#8275#8276#0" expanded="true" />
+            <element signature="e#11209#11210#0" expanded="true" />
+            <element signature="e#11247#11248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/collection/DelayQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="104" column="16" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#329#345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/abel533/ECharts/3.0.0.2/ECharts-3.0.0.2.jar!/com/github/abel533/echarts/series/Treemap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdk/src/main/java/echarts/samples/treemap/TreemapTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="56" column="43" lean-forward="true" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-884">
+          <caret line="146" column="11" selection-start-line="146" selection-start-column="11" selection-end-line="146" selection-end-column="11" />
+          <folding>
+            <element signature="e#5767#5768#0" expanded="true" />
+            <element signature="e#5800#5801#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/TreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="123" column="21" lean-forward="true" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
+          <folding>
+            <element signature="e#9664#9665#0" expanded="true" />
+            <element signature="e#9710#9711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/collection/HashsetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/jar/JarVerifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="1375" selection-start-line="1375" selection-end-line="1375" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Hashtable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="464" column="53" lean-forward="true" selection-start-line="464" selection-start-column="8" selection-end-line="464" selection-end-column="53" />
+          <folding>
+            <element signature="e#7895#7896#0" expanded="true" />
+            <element signature="e#7926#7927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Formattable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="118" column="17" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="945" column="26" selection-start-line="945" selection-start-column="26" selection-end-line="945" selection-end-column="26" />
+          <folding>
+            <element signature="e#36709#36710#0" expanded="true" />
+            <element signature="e#36767#36768#0" expanded="true" />
+            <element signature="e#37304#37305#0" expanded="true" />
+            <element signature="e#37347#37348#0" expanded="true" />
+            <element signature="e#76018#76019#0" expanded="true" />
+            <element signature="e#76090#76091#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/ConcurrentHashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="218" column="20" lean-forward="true" selection-start-line="218" selection-start-column="20" selection-end-line="218" selection-end-column="20" />
+          <folding>
+            <element signature="e#8033#8034#0" expanded="true" />
+            <element signature="e#8081#8082#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/LinkedHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="304" column="9" selection-start-line="304" selection-start-column="9" selection-end-line="304" selection-end-column="9" />
+        <state relative-caret-position="178">
+          <caret line="282" column="9" selection-start-line="282" selection-start-column="9" selection-end-line="282" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jdk/src/main/java/com/alibaba/dubbo/common/utils/LRUCache.java">
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="41" column="39" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="39" />
+        <state relative-caret-position="88">
+          <caret line="277" column="17" selection-start-line="277" selection-start-column="17" selection-end-line="277" selection-end-column="17" />
+          <folding>
+            <element signature="e#24298#24299#0" expanded="true" />
+            <element signature="e#24363#24364#0" expanded="true" />
+            <element signature="e#40325#40326#0" expanded="true" />
+            <element signature="e#40375#40376#0" expanded="true" />
+            <element signature="e#55067#55068#0" expanded="true" />
+            <element signature="e#55110#55111#0" expanded="true" />
+            <element signature="e#66531#66532#0" expanded="true" />
+            <element signature="e#66588#66589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="946" selection-start-line="946" selection-end-line="946" />
+          <folding>
+            <element signature="e#35532#35533#0" expanded="true" />
+            <element signature="e#35824#35825#0" expanded="true" />
+            <element signature="e#35852#35853#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="361" column="42" selection-start-line="361" selection-start-column="42" selection-end-line="361" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="157" column="27" selection-start-line="157" selection-start-column="27" selection-end-line="157" selection-end-column="27" />
+          <folding>
+            <element signature="e#4725#4726#0" expanded="true" />
+            <element signature="e#4793#4794#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="119" column="36" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="36" />
+          <folding>
+            <element signature="e#9117#9118#0" expanded="true" />
+            <element signature="e#9144#9145#0" expanded="true" />
+            <element signature="e#12210#12211#0" expanded="true" />
+            <element signature="e#12258#12259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/collection/ConcurrentHashMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/collection/ConcurrentHashMap7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="400" selection-start-line="400" selection-end-line="400" />
+          <folding>
+            <element signature="e#25284#25290#0" expanded="true" />
+            <element signature="e#30168#30169#0" expanded="true" />
+            <element signature="e#30262#30263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="1134" selection-start-line="1134" selection-end-line="1134" />
+          <folding>
+            <element signature="e#32334#32335#0" expanded="true" />
+            <element signature="e#32385#32386#0" expanded="true" />
+            <element signature="e#44347#44348#0" expanded="true" />
+            <element signature="e#44395#44396#0" expanded="true" />
+            <element signature="e#48122#48123#0" expanded="true" />
+            <element signature="e#48173#48174#0" expanded="true" />
+            <element signature="e#65240#65241#0" expanded="true" />
+            <element signature="e#65287#65288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/collection/HashMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="91" column="33" lean-forward="true" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1706#1707#0" expanded="true" />
+            <element signature="e#1752#1753#0" expanded="true" />
+            <element signature="e#1701#1702#0" expanded="true" />
+            <element signature="e#1739#1740#0" expanded="true" />
+            <element signature="e#1790#1791#0" expanded="true" />
+            <element signature="e#1836#1837#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+            <element signature="e#1668#1669#0" expanded="true" />
+            <element signature="e#1624#1625#0" expanded="true" />
+            <element signature="e#1659#1660#0" expanded="true" />
+            <element signature="e#1703#1704#0" expanded="true" />
+            <element signature="e#1743#1744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdk/src/main/java/echarts/samples/bar/BarTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/abel533/ECharts/3.0.0.2/ECharts-3.0.0.2.jar!/com/github/abel533/echarts/axis/ValueAxis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding>
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdk/src/main/java/echarts/samples/bar/BarTest4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="50" column="16" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdk/src/main/java/echarts/samples/bar/BarTest12.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="70" column="85" lean-forward="true" selection-start-line="70" selection-start-column="73" selection-end-line="70" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdk/src/main/java/echarts/samples/scatter/ScatterTest6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="84" column="63" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdk/src/main/java/echarts/samples/bar/BarTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="59" column="28" lean-forward="true" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
         </state>
       </provider>
     </entry>

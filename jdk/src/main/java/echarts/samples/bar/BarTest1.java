@@ -24,6 +24,7 @@
 
 package echarts.samples.bar;
 
+import com.github.abel533.echarts.axis.AxisLabel;
 import com.github.abel533.echarts.axis.CategoryAxis;
 import com.github.abel533.echarts.axis.ValueAxis;
 import com.github.abel533.echarts.code.Magic;
@@ -54,7 +55,11 @@ public class BarTest1 {
         option.toolbox().show(true).feature(Tool.mark, Tool.dataView, new MagicType(Magic.line, Magic.bar).show(true), Tool.restore, Tool.saveAsImage);
         option.calculable(true);
         option.xAxis(new CategoryAxis().data("1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"));
-        option.yAxis(new ValueAxis());
+        ValueAxis valueAxis = new ValueAxis();
+        AxisLabel label = new AxisLabel();
+        label.formatter("");
+        valueAxis.axisLabel(label);
+        option.yAxis(valueAxis);
 
         Bar bar = new Bar("蒸发量");
         bar.data(2.0, 4.9, 7.0, 23.2, 25.6, 76.7, 135.6, 162.2, 32.6, 20.0, 6.4, 3.3);

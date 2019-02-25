@@ -24,6 +24,7 @@
         <module>jdk</module>
         <module>algorithm</module>
         <module>Interview</module>
+        <module>dataStructure</module>
     </modules>
 
     <properties>
