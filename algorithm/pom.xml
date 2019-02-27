@@ -11,6 +11,11 @@
 
     <groupId>com.xielj</groupId>
     <artifactId>algorithm</artifactId>
-
+    <dependencies>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
