@@ -15,8 +15,9 @@ public class Test extends ReentrantLock {
         List list = new ArrayList();
         list.add(null);
         list.add(null);
-        list.add(1);
-        list.add(1);
+        for (int i = 0; i < 100; i++) {
+            list.add(1);
+        }
         System.out.println(list);
 
         Set set = new HashSet();
@@ -41,6 +42,10 @@ public class Test extends ReentrantLock {
             Object key = entry.getKey();
             Object value = entry.getValue();
         }
+        Iterator<Map.Entry<Object, Object>> iterator = hashMap.entrySet().iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next().getKey() + ":" + iterator.next().getValue());
+        }
 
         Hashtable hashtable = new Hashtable();
 //        hashtable.put(null,1);// NullPointException
@@ -50,7 +55,13 @@ public class Test extends ReentrantLock {
         System.out.println(hashtable);
 
         ConcurrentHashMap<Object, Object> concurrentHashMap = new ConcurrentHashMap();
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 100; i++) {
+            concurrentHashMap.put(i, i);
+            HashEntity hashEntity = new HashEntity();
+            hashEntity.setName("aa" + i);
+            concurrentHashMap.put(hashEntity, i);
+        }
+        for (int i = 0; i < 100; i++) {
             concurrentHashMap.put(i, i);
         }
         for (Map.Entry<Object, Object> entry : concurrentHashMap.entrySet()) {
@@ -82,10 +93,10 @@ public class Test extends ReentrantLock {
 
         //////////////////
         ConcurrentHashMap7<Object, Object> map7 = new ConcurrentHashMap7();
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 100; i++) {
             map7.put(i, i);
             HashEntity hashEntity = new HashEntity();
-            hashEntity.setName("aa"+i);
+            hashEntity.setName("aa" + i);
             map7.put(hashEntity, i);
         }
         for (Map.Entry<Object, Object> entry : map7.entrySet()) {
@@ -96,6 +107,8 @@ public class Test extends ReentrantLock {
         map7.remove(1);
         map7.get(1);
         System.out.println(size);
+        MapTest1 tm = new MapTest1();
+        map7.put(tm, tm);
         //////////////////
 
         AtomicInteger integer = new AtomicInteger();
@@ -103,16 +116,22 @@ public class Test extends ReentrantLock {
 
         ////////////////
         Test test = new Test();
-        while (true){
+        while (true) {
             test.lock();
             System.out.println("lock sucess");
             break;
         }
         System.out.println("lock end");
+        ////////////////////////
+        LinkedHashMap linkedHashMap = new LinkedHashMap();
+        linkedHashMap.put(1, 1);
     }
 
     static class MapTest1 {
         private MapTest mapTest;
+
+        public MapTest1() {
+        }
 
         public MapTest1(MapTest mapTest) {
             this.mapTest = mapTest;
@@ -142,6 +161,7 @@ public class Test extends ReentrantLock {
             this.name = name;
         }
     }
+
     static class HashEntity {
         String name;
 

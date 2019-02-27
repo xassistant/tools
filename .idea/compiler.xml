@@ -14,6 +14,7 @@
         <module name="dataStructure" />
         <module name="Interview" />
         <module name="jdk" />
+        <module name="jvm" />
         <module name="spark" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="dataStructure" target="8" />
       <module name="Interview" target="8" />
       <module name="jdk" target="8" />
+      <module name="jvm" target="8" />
       <module name="spark" target="8" />
       <module name="tools" target="8" />
     </bytecodeTargetLevel>
@@ -33,6 +35,7 @@
       <module name="algorithm" options="" />
       <module name="dataStructure" options="" />
       <module name="jdk" options="" />
+      <module name="jvm" options="" />
       <module name="spark" options="" />
       <module name="tools" options="" />
     </option>
