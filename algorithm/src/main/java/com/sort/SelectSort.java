@@ -1,5 +1,7 @@
 package com.sort;
 
+import com.alibaba.fastjson.JSON;
+
 /**
  * 1 选择排序
  * 已知一组无序数据a[1]、a[2]、……a[n]，需将其按升序排列。首先比较a[1]与a[2]的值，若a[1]大于a[2]则交换两者的值，否则不变
@@ -14,24 +16,22 @@ package com.sort;
 
 public class SelectSort {
     public static void main(String[] args) {
-        int[] arr = {49, 38, 65, 97, 76, 13, 27, 49, 78, 34, 12, 64, 1};
+        sort1();
+    }
 
-        int tmp = 0;
-        // i是决定走几趟, 冒泡排序
-        for (int i = 0; i < arr.length - 1; i++) {
-            // 内层循环，开始逐个比较，如果发现前一个数比后一个数大就交换
-            // 相邻的数据进行比较, 找到小的排到前边
+    public static void sort1() {
+        int[] arr = {49, 38, 65, 97, 76, 13, 27, 49, 78, 34, 12, 64, 1};
+        for (int i = 0; i < arr.length; i++) {
+            // 外层对内层比较数据大小
             for (int j = i + 1; j < arr.length; j++) {
+                // 这里的<  >是排序用的,arr[i]常量值，arr[j]变量值,最终把变量值复制到常量值，所以用j=i+1
                 if (arr[i] > arr[j]) {
-                    tmp = arr[i];
+                    int tmp = arr[i];
                     arr[i] = arr[j];
                     arr[j] = tmp;
                 }
             }
         }
-        System.out.println("排序之后：");
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-        }
+        System.out.println(JSON.toJSONString(arr));
     }
 }

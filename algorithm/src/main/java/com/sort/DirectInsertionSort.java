@@ -35,4 +35,5 @@ public class DirectInsertionSort {
             System.out.print(a[i] + " ");
         }
     }
+
 }
