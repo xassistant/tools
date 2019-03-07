@@ -17,13 +17,30 @@ package com.ant;
 public class KinshipCalculator {
 
     public static void main(String[] args) {
-        String kinship = "父的弟";
-        String persona = KinshipCache.getPersona(kinship);
-        System.out.println(persona);// fx
+        String kinshipName = "父的弟";
 
-        String kinships = KinshipCache.getKinships(persona);
-        System.out.println(kinships);
+        // 对于给定a,b两人，得出其亲属关系？
+        System.out.println(getKinship(kinshipName));
+        // 判断给定的a,b两人是否是指定的亲属关系？
+        System.out.println(isKinship(kinshipName, "叔叔"));
+        System.out.println(isKinship(kinshipName, "舅舅"));
+    }
 
+    private static boolean isKinship(String kinshipName, String expected) {
+        if (kinshipName == null && expected == null) {
+            throw new KinshipException("比较值和期望值不能为空");
+        }
+        String kinship = getKinship(kinshipName);
+        if (kinship == null) {
+            throw new KinshipException("无对应亲属关系");
+        }
+        return kinship.equals(expected);
+    }
+
+    private static String getKinship(String kinshipName) {
+        String kinship = KinshipCache.getKinships(kinshipName);
+
+        return kinship;
     }
 
 

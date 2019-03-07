@@ -46,10 +46,16 @@ public class KinshipCache {
         kinships.put(key, value);
     }
 
-    public static String getKinships(String kinshipKey) {
+    public static String getKinships(String kinshipName) {
+        validKinshipName(kinshipName);
+        String kinshipKey = KinshipCache.getKinshipKey(kinshipName);
         validKinshipKey(kinshipKey);
+        String kinship = kinships.get(kinshipKey);
 
-        return kinships.get(kinshipKey);
+        if (kinship == null) {
+            return "无此关系";
+        }
+        return kinship;
     }
 
     private static void validKinshipKey(String kinshipKey) {
@@ -58,7 +64,7 @@ public class KinshipCache {
         }
     }
 
-    public static String getPersona(String kinshipName) {
+    public static String getKinshipKey(String kinshipName) {
         // 校验数据有效性
         validKinshipName(kinshipName);
 
