@@ -18,8 +18,9 @@ public class CloneDemo1 {
 
         Employee1 employee1 = new Employee1("老王", user);
         Employee1 employee11 = (Employee1) employee1.clone();
-        employee11.setUser(user1);
-        System.out.println(employee1.getUser().getName());
+//        employee11.setUser(user1);
+        employee11.getUser().setName("aaaaaaaaaaa");
+        System.out.println(employee1.getUser().getName()+":"+employee11.getUser().getName());
     }
 
 
@@ -70,7 +71,7 @@ class Employee1 implements Cloneable {
 
     public Object clone() throws CloneNotSupportedException {
         Employee1 cloned = (Employee1) super.clone();
-//        cloned.user = (User) user.clone();
+        cloned.user = (User) user.clone();
         return cloned;
     }
 
