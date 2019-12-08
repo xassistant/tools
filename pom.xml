@@ -26,6 +26,7 @@
         <module>Interview</module>
         <module>dataStructure</module>
         <module>jvm</module>
+        <module>thread</module>
     </modules>
 
     <properties>
