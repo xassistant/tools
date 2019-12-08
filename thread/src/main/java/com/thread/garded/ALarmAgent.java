@@ -55,13 +55,10 @@ public class ALarmAgent {
 
     protected void onConnected() {
         try {
-            blocker.signalAfter(new Callable<Boolean>() {
-                @Override
-                public Boolean call() {
-                    connectedToServer = true;
-                    System.out.print("connnected to server");
-                    return Boolean.TRUE;
-                }
+            blocker.signalAfter(() -> {
+                connectedToServer = true;
+                System.out.print("connnected to server");
+                return Boolean.TRUE;
             });
         } catch (Exception e) {
             e.printStackTrace();

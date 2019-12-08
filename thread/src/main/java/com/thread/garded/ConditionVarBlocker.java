@@ -6,17 +6,17 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class ConditionVarBlocker implements Blocker{
+public class ConditionVarBlocker implements Blocker {
     private final Lock lock;
 
     private final Condition condition;
 
-    public ConditionVarBlocker(Lock lock){
+    public ConditionVarBlocker(Lock lock) {
         this.lock = lock;
         this.condition = lock.newCondition();
     }
 
-    public ConditionVarBlocker(){
+    public ConditionVarBlocker() {
         this.lock = new ReentrantLock();
         this.condition = lock.newCondition();
     }
@@ -24,14 +24,14 @@ public class ConditionVarBlocker implements Blocker{
     public <V> V callWithGuard(GuardedAction<V> guardedAction) throws Exception {
         lock.lockInterruptibly();
         V result;
-        try{
+        try {
             final Predicate guard = guardedAction.guard;
-            while(!guard.evaluate()){
+            while (!guard.evaluate()) {
                 condition.await();
             }
             result = guardedAction.call();
             return result;
-        }finally{
+        } finally {
             lock.unlock();
         }
     }
@@ -39,33 +39,32 @@ public class ConditionVarBlocker implements Blocker{
     public void broadcastAfter(Callable<Boolean> stateOperation)
             throws Exception {
         lock.lockInterruptibly();
-        try{
-            if(stateOperation.call()){
+        try {
+            if (stateOperation.call()) {
                 condition.signal();
             }
-        }finally{
+        } finally {
             lock.unlock();
         }
     }
 
 
-
     public void signal() throws InterruptedException {
         lock.lockInterruptibly();
-        try{
+        try {
             condition.signal();
-        }finally{
+        } finally {
             lock.unlock();
         }
     }
 
     public void signalAfter(Callable<Boolean> stateOperation) throws Exception {
         lock.lockInterruptibly();
-        try{
-            if(stateOperation.call()){
+        try {
+            if (stateOperation.call()) {
                 condition.signalAll();
             }
-        }finally{
+        } finally {
             lock.unlock();
         }
 
