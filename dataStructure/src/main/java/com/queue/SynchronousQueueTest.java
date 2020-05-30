@@ -9,14 +9,17 @@ public class SynchronousQueueTest {
     private static SynchronousQueue queue = new SynchronousQueue();
 
     public static void main(String[] args) throws InterruptedException {
-        final SynchronousQueue<Integer> queue = new SynchronousQueue<Integer>();
+//        final SynchronousQueue<Integer> queue = new SynchronousQueue<Integer>();
 
         Thread putThread = new Thread(new Runnable() {
             @Override
             public void run() {
                 System.out.println("put thread start");
                 try {
-                    queue.put(1);
+                    while (true) {
+                        queue.put(1);
+                        Thread.sleep(5000);
+                    }
                 } catch (InterruptedException e) {
                 }
                 System.out.println("put thread end");
@@ -28,7 +31,9 @@ public class SynchronousQueueTest {
             public void run() {
                 System.out.println("take thread start");
                 try {
-                    System.out.println("take from putThread: " + queue.take());
+                    while (true) {
+                        System.out.println("take from putThread: " + queue.take());
+                    }
                 } catch (InterruptedException e) {
                 }
                 System.out.println("take thread end");

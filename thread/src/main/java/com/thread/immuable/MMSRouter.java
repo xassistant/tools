@@ -12,7 +12,7 @@ public class MMSRouter {
 
     private final Map<String, MMSInfo> routeMap;
 
-    private MMSRouter() {
+    MMSRouter() {
         this.routeMap = this.retrieveRouteMapFromDB();
     }
 
@@ -25,6 +25,12 @@ public class MMSRouter {
         return routeMap.get(msisdnPrefix);
     }
 
+    /**
+     * set instance 保证了每次调动的router都是全新的instance，避免并发开销
+     * 但是却加大了内存开销
+     *
+     * @param newInstance
+     */
     public static void setInstance(MMSRouter newInstance) {
         instance = newInstance;
     }
@@ -32,16 +38,17 @@ public class MMSRouter {
     public static MMSRouter getInstance() {
         return instance;
     }
-    public Map<String,MMSInfo> getRouteMap(){
+
+    public Map<String, MMSInfo> getRouteMap() {
         return Collections.unmodifiableMap(deepCopy(routeMap));
     }
 
-    private Map<String,MMSInfo> deepCopy(Map<String, MMSInfo> routeMap) {
-        Map<String,MMSInfo> result = new HashMap<>();
-        for(Map.Entry<String,MMSInfo> entry:routeMap.entrySet()){
+    private Map<String, MMSInfo> deepCopy(Map<String, MMSInfo> routeMap) {
+        Map<String, MMSInfo> result = new HashMap<>();
+        for (Map.Entry<String, MMSInfo> entry : routeMap.entrySet()) {
             String key = entry.getKey();
             MMSInfo value = entry.getValue();
-            result.put(key,value);
+            result.put(key, value);
         }
         return result;
     }
