@@ -1,15 +1,7 @@
-import javaDemo.classloader.A;
-
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
-import java.util.HashMap;
-import java.util.Map;
+
 
 /**
  * @Date 2019/1/12 16:53
@@ -29,19 +21,46 @@ public class Test {
                     }
                 });
         instance.test();
-
     }
 
-    interface PorxyInterfaceTest {
-        void test();
+//    public static void main(String[] args) throws InterruptedException, ClassNotFoundException, SQLException {
+//        InterA ab = new ClassAB();
+//        ((InterB) ab).testb();
+//        System.out.println(ab instanceof InterB);
+//    }
+}
+
+interface PorxyInterfaceTest {
+    void test();
+}
+
+class ProxyClass implements PorxyInterfaceTest {
+
+    @Override
+    public void test() {
+        System.out.println("aaa");
     }
+}
 
-    static class ProxyClass implements PorxyInterfaceTest {
+class ClassAB extends AbstrackTestClass implements InterB {
 
-        @Override
-        public void test() {
-            System.out.println("aaa");
-        }
+    @Override
+    public void testb() {
+        System.out.println("bbb");
     }
+}
 
+abstract class AbstrackTestClass implements InterA {
+    @Override
+    public void testa() {
+        System.out.println("aaa");
+    }
+}
+
+interface InterA {
+    void testa();
+}
+
+interface InterB {
+    void testb();
 }

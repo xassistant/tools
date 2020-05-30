@@ -1,7 +1,6 @@
 package javaDemo.lamda;
 
 import java.util.function.Function;
-import java.util.stream.Collectors;
 
 /**
  * @Author xlj
@@ -30,10 +29,10 @@ public class FunctionTest {
                 return rangeQuery(fieldName, v0, null);
             case "<":
                 return rangeQuery(fieldName, null, v0);
-            case "≥":
-                return rangeQuery(fieldName, v0, null, true, true);
-            case "≤":
-                return rangeQuery(fieldName, null, v0, true, true);
+//            case "≥":
+//                return rangeQuery(fieldName, v0, null, true, true);
+//            case "≤":
+//                return rangeQuery(fieldName, null, v0, true, true);
             case "(a,b]":
                 return rangeQuery(fieldName, v0, v1, false, true);
             case "[a,b)":

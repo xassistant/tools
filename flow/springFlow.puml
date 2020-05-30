@@ -1,0 +1,56 @@
+@startuml
+SpringApplication -> AbstractApplicationContext: refreshContext
+AbstractApplicationContext --> PostProcessorRegistrationDelegate: registerBeanPostProcessors
+PostProcessorRegistrationDelegate --> AbstractBeanFactory:doGetBean
+
+DefaultSingletonBeanRegistry-->DefaultSingletonBeanRegistry:beforeSingletonCreation//Callback 判断是否正在创建，避免循环递归调用多次调用
+AbstractBeanFactory-->DefaultSingletonBeanRegistry:getSingleton
+
+
+DefaultSingletonBeanRegistry-->AbstractBeanFactory:getObject
+AbstractBeanFactory-->AbstractAutowireCapableBeanFactory:createBean
+AbstractAutowireCapableBeanFactory-->AbstractBeanFactory:resolveBeanClass
+AbstractBeanFactory-->AbstractAutowireCapableBeanFactory
+AbstractAutowireCapableBeanFactory-->AbstractAutowireCapableBeanFactory:resolveBeforeInstantiation// Give BeanPostProcessors a chance to return a proxy instead of the target bean instance.
+AbstractAutowireCapableBeanFactory-->AbstractAutowireCapableBeanFactory:doCreateBean
+AbstractAutowireCapableBeanFactory-->AbstractAutowireCapableBeanFactory:createBeanInstance
+AbstractAutowireCapableBeanFactory-->AbstractAutowireCapableBeanFactory:instantiateBean // 返回instanceWrapper
+AbstractAutowireCapableBeanFactory-->AbstractAutowireCapableBeanFactory:applyMergedBeanDefinitionPostProcessors // Allow post-processors to modify the merged bean definition.
+AbstractAutowireCapableBeanFactory-->DefaultSingletonBeanRegistry:addSingletonFactory// 三级缓存 resolve circular references.
+DefaultSingletonBeanRegistry-->AbstractAutowireCapableBeanFactory:populateBean//Populate the bean instance in the given BeanWrapper with the property values
+AbstractAutowireCapableBeanFactory-->AbstractAutowireCapableBeanFactory:autowireByType// Add property values based on autowire by type if applicable.
+
+AbstractAutowireCapableBeanFactory-->AbstractAutowireCapableBeanFactory:applyPropertyValues//resolving any runtime references to other beans in this bean factory
+AbstractAutowireCapableBeanFactory-->BeanDefinitionValueResolver:resolveValueIfNecessary//resolving any references
+BeanDefinitionValueResolver-->BeanDefinitionValueResolver:resolveReference//Resolve a reference to another bean in the factory.
+BeanDefinitionValueResolver --> AbstractBeanFactory:doGetBean递归获取依赖信息
+
+BeanDefinitionValueResolver-->DefaultSingletonBeanRegistry:registerContainedBean//Register a containment relationship between two beans
+
+AbstractAutowireCapableBeanFactory-->AbstractAutowireCapableBeanFactory:initializeBean
+
+DefaultSingletonBeanRegistry-->DefaultSingletonBeanRegistry:beforeSingletonCreation//一级缓存，Callback 判断是否正在创建，避免循环递归调用多次调用
+AbstractAutowireCapableBeanFactory-->DefaultSingletonBeanRegistry:getSingleton// 从singletonObjects、earlySingletonObjects获取，返回null
+
+AbstractAutowireCapableBeanFactory-->AbstractBeanFactory
+AbstractBeanFactory-->DefaultSingletonBeanRegistry:最后返回instanceWrapper，即sharedInstance
+AbstractAutowireCapableBeanFactory-->DefaultSingletonBeanRegistry:afterSingletonCreation
+
+DefaultSingletonBeanRegistry-->DefaultSingletonBeanRegistry:addSingleton// 添加到一级缓存，清空二级、三级缓存
+DefaultSingletonBeanRegistry-->AbstractBeanFactory:getObjectForBeanInstance// 参数：sharedInstance，获取instance
+
+DefaultSingletonBeanRegistry-->AbstractBeanFactory:// 得到FactoryBean<?>
+AbstractBeanFactory-->FactoryBeanRegistrySupport:getObjectFromFactoryBean//singletonObjects.contains(name) ,Obtain an object to expose from the given FactoryBean.
+FactoryBeanRegistrySupport-->FactoryBeanRegistrySupport:doGetObjectFromFactoryBean//Obtain an object to expose from the given FactoryBean.
+
+FactoryBeanRegistrySupport-->DefaultSingletonBeanRegistry:beforeSingletonCreation//Callback 判断
+FactoryBeanRegistrySupport-->FactoryBeanRegistrySupport:postProcessObjectFromFactoryBean//The resulting object will get exposed for bean references.
+FactoryBeanRegistrySupport-->DefaultSingletonBeanRegistry:afterSingletonCreation//Callback 判断
+
+
+
+DefaultSingletonBeanRegistry-->DefaultSingletonBeanRegistry:afterSingletonCreation//一级缓存，Callback 判断
+
+FactoryBeanRegistrySupport-->AbstractBeanFactory
+
+@enduml

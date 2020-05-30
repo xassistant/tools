@@ -1,10 +1,7 @@
 package cn.itcast.day1;
 
-import java.io.FileInputStream;
 import java.io.InputStream;
-import java.util.ArrayList;
 import java.util.Collection;
-import java.util.HashSet;
 import java.util.Properties;
 
 public class ReflectTest2 {
@@ -22,7 +19,9 @@ public class ReflectTest2 {
 		InputStream ips1 = ReflectTest2.class.getResourceAsStream("config.properties");
 		InputStream ips2 = ReflectTest2.class.getResourceAsStream("/config.properties");
 		InputStream ips3 = Thread.currentThread().getContextClassLoader().getResourceAsStream("config.properties");
+//		InputStream ips6 = Thread.currentThread().getContextClassLoader().getResourceAsStream("/config.properties");
 		InputStream ips4 = Thread.currentThread().getClass().getResourceAsStream("/config.properties");
+//		InputStream ips5 = Thread.currentThread().getClass().getResourceAsStream("config.properties");
 
 		Properties props = new Properties();
 		props.load(ips);

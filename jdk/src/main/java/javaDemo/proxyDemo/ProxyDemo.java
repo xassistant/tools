@@ -1,6 +1,8 @@
 package javaDemo.proxyDemo;
 
 import org.junit.Test;
+import org.springframework.beans.factory.config.ConfigurableBeanFactory;
+import org.springframework.util.ReflectionUtils;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -39,6 +41,23 @@ public class ProxyDemo implements InvocationHandler {
         proxy.say();
         System.out.println("完成");
     }
+
+    private Object createInterfaceProxyForFactoryBean(final Object factoryBean, Class<?> interfaceType,
+                                                      final ConfigurableBeanFactory beanFactory, final String beanName) {
+
+        return Proxy.newProxyInstance(
+                factoryBean.getClass().getClassLoader(), new Class<?>[] {interfaceType},
+                new InvocationHandler() {
+                    @Override
+                    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+                        if (method.getName().equals("getObject") && args == null) {
+                            return beanFactory.getBean(beanName);
+                        }
+                        return ReflectionUtils.invokeMethod(method, factoryBean, args);
+                    }
+                });
+    }
+
 }
 
 interface PersonDao {

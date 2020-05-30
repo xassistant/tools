@@ -13,6 +13,7 @@ public class MyClassLoader extends ClassLoader{
 	 * @param args
 	 */
 	public static void main(String[] args) throws Exception {
+		MyClassLoader classLoader = new MyClassLoader();
 		// TODO Auto-generated method stub
 		String srcPath = args[0];
 		String destDir = args[1];
@@ -54,10 +55,14 @@ public class MyClassLoader extends ClassLoader{
 	}
 	
 	public MyClassLoader(){
-		
+
 	}
 	
 	public MyClassLoader(String classDir){
+
 		this.classDir = classDir;
 	}
+}
+interface AAA {
+	void test();
 }
