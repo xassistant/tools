@@ -11,6 +11,19 @@
 
     <groupId>com.xielj</groupId>
     <artifactId>servlet</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 
 </project>
