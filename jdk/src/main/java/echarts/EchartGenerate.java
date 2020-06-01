@@ -11,11 +11,11 @@ public class EchartGenerate {
 
 
     public static void main(String[] args) {
-        String optiona = "{\"calculable\":true,\"series\":[{\"barWidth\":24,\"data\":[15,9,5,2,1],\"itemStyle\":{\"normal\":{\"label\":{\"position\":\"insideRight\",\"show\":true}}},\"type\":\"bar\"}],\"title\":{\"text\":\"告警TOP统计\",\"x\":\"center\"},\"xAxis\":[{\"axisLabel\":{\"interval\":0,\"rotate\":-10},\"data\":[\"发现密码自动填充\",\"发现弱加密算法\",\"违规访问-发现大量爬虫访问行为\",\"同一源IP进行暴力破解\",\"可疑-发现多次绕过安全限制访问行为\"],\"type\":\"category\"}],\"yAxis\":[{\"type\":\"value\"}]}";
+//        String optiona = "{\"calculable\":true,\"series\":[{\"barWidth\":24,\"data\":[15,9,5,2,1],\"itemStyle\":{\"normal\":{\"label\":{\"position\":\"insideRight\",\"show\":true}}},\"type\":\"bar\"}],\"title\":{\"text\":\"告警TOP统计\",\"x\":\"center\"},\"xAxis\":[{\"axisLabel\":{\"interval\":0,\"rotate\":-10},\"data\":[\"发现密码自动填充\",\"发现弱加密算法\",\"违规访问-发现大量爬虫访问行为\",\"同一源IP进行暴力破解\",\"可疑-发现多次绕过安全限制访问行为\"],\"type\":\"category\"}],\"yAxis\":[{\"type\":\"value\"}]}";
         //String options = "test";
         Map<String, Object> resultMap = new HashMap<>();
 
-        generateEChart(optiona, resultMap);
+//        generateEChart(optiona, resultMap);
 
     }
 
