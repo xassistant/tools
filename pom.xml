@@ -27,6 +27,8 @@
         <module>dataStructure</module>
         <module>jvm</module>
         <module>servlet</module>
+        <module>thread</module>
+        <module>io</module>
     </modules>
 
     <properties>
