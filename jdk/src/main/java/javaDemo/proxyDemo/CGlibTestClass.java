@@ -1,5 +1,6 @@
 package javaDemo.proxyDemo;
 
+import org.springframework.cglib.proxy.Callback;
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;
 
@@ -21,12 +22,14 @@ public final class CGlibTestClass {
     public static void main(String[] args) throws Exception {
         Enhancer enhancer = new Enhancer();
         enhancer.setSuperclass(CGlibTestClass.class);
-        enhancer.setCallback((MethodInterceptor) (obj, method, args1, proxy) -> {
+        MethodInterceptor methodInterceptor = (obj, method, args1, proxy) -> {
             System.out.println("before method run...");
             Object result = proxy.invokeSuper(obj, args1);
             System.out.println("after method run...");
             return result;
-        });
+        };
+        Callback[] callbacks = {methodInterceptor};
+        enhancer.setCallbacks(callbacks);
         CGlibTestClass sample = (CGlibTestClass) enhancer.create();
         sample.test1();
         sample.test2();

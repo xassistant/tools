@@ -1,0 +1,24 @@
+@startuml
+ControllerDemo -> CglibAopProxy: intercept
+activate CglibAopProxy
+CglibAopProxy --> CglibMethodInvocation: proceed
+activate CglibAopProxy
+CglibMethodInvocation --> TransactionInterceptor: invoke
+activate TransactionInterceptor
+TransactionInterceptor --> TransactionAspectSupport: invokeWithinTransaction
+activate TransactionAspectSupport
+TransactionAspectSupport --> TransactionAspectSupport: createTransactionIfNecessary开启事物
+activate TransactionAspectSupport
+TransactionAspectSupport --> CglibAopProxy: invokeJoinpoint
+CglibAopProxy --> ServiceDemo: service事物方法
+CglibAopProxy --> TransactionAspectSupport:commitTransactionAfterReturning提交事物
+deactivate TransactionAspectSupport
+TransactionAspectSupport --> TransactionInterceptor
+deactivate TransactionAspectSupport
+TransactionInterceptor --> CglibAopProxy
+deactivate TransactionInterceptor
+deactivate CglibAopProxy
+CglibAopProxy --> ControllerDemo
+deactivate CglibAopProxy
+
+@enduml
