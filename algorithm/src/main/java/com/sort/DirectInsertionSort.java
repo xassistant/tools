@@ -99,4 +99,44 @@ public class DirectInsertionSort {
             System.out.print(arr[i] + " ");
         }
     }
+
+    /**
+     * 二分插入排序
+     */
+    @Test
+    public void binarySort() {
+        Object[] a = {49, 38, 65, 97, 76, 13, 27, 49, 78, 34, 12, 64, 1};
+        int lo = 0;
+        for (int start = 1; start < a.length; start++) {
+            Comparable pivot = (Comparable) a[start];
+
+            int left = lo;
+            int right = start;
+            while (left < right) {
+                // 二分插入排序获取中值
+                int mid = (left + right) >>> 1;
+                if (pivot.compareTo(a[mid]) < 0) {
+                    right = mid;
+                } else {
+                    left = mid + 1;
+                }
+            }
+            int n = start - left;
+            switch (n) {
+                case 2:
+                    a[left + 2] = a[left + 1];
+                case 1:
+                    a[left + 1] = a[left];
+                    break;
+                default:
+                    System.arraycopy(a, left, a, left + 1, n);
+            }
+            a[left] = pivot;
+        }
+        System.out.println();
+        System.out.println("排序之后：");
+        for (int i = 0; i < a.length; i++) {
+            System.out.print(a[i] + " ");
+        }
+    }
 }

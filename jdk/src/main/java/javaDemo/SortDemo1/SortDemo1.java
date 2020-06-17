@@ -25,15 +25,21 @@ public class SortDemo1 {
             System.out.println(str);
         }
     }
+
     @Test
     public void printListIntegerSort() {
         List<Integer> list = new ArrayList();
         list.add(15);
         list.add(123);
         list.add(10);
-        list.add(9);
-        list.add(3);
+        list.add(91);
 
+        list.add(69);
+        list.add(92);
+        list.add(3);
+        for (int i = 0; i < 80; i++) {
+            list.add((int) (Math.random() * 100));
+        }
         // 常规的排序
         Collections.sort(list);
 
