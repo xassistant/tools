@@ -3,7 +3,10 @@ package com.sort;
 import java.util.Arrays;
 
 /**
- *归并排序是稳定排序，它也是一种十分高效的排序，
+ * https://blog.csdn.net/Duuuhs/article/details/89167231
+ * 说的是双轴快排
+ * <p>
+ * 归并排序是稳定排序，它也是一种十分高效的排序，
  * 能利用完全二叉树特性的排序一般性能都不会太差。
  * java中Arrays.sort()采用了一种名为TimSort的排序算法，
  * 就是归并排序的优化版本。

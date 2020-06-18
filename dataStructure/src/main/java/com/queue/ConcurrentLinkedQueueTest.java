@@ -3,7 +3,7 @@ package com.queue;
 import org.junit.Test;
 
 import java.util.LinkedList;
-import java.util.concurrent.*;
+import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -17,6 +17,8 @@ public class ConcurrentLinkedQueueTest {
         queue.offer(1);
         queue.offer(2);
         queue.offer(3);
+        Object peek = queue.peek();
+
     }
 
     ReentrantLock lock = new ReentrantLock();

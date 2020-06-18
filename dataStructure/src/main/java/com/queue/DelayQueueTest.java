@@ -37,29 +37,30 @@ public class DelayQueueTest {
         new Thread(() -> {
             while (true){
                 try {
-                    TimeUnit.MILLISECONDS.sleep(100);
+                    TimeUnit.MILLISECONDS.sleep(5000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
 
-                DelayedElement element = new DelayedElement(1000,"test");
+                DelayedElement element = new DelayedElement(2000,"test");
+                System.out.println("生产数据：delayQueue size:"+delayQueue.size());
                 delayQueue.offer(element);
             }
         }).start();
-
-        /**
-         * 每秒打印延迟队列中的对象个数
-         */
-        new Thread(() -> {
-            while (true){
-                try {
-                    TimeUnit.MILLISECONDS.sleep(1000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                System.out.println("delayQueue size:"+delayQueue.size());
-            }
-        }).start();
+//
+//        /**
+//         * 每秒打印延迟队列中的对象个数
+//         */
+//        new Thread(() -> {
+//            while (true){
+//                try {
+//                    TimeUnit.MILLISECONDS.sleep(1000);
+//                } catch (InterruptedException e) {
+//                    e.printStackTrace();
+//                }
+//                System.out.println("delayQueue size:"+delayQueue.size());
+//            }
+//        }).start();
     }
 
     /**

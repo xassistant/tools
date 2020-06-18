@@ -24,6 +24,9 @@ public class PriorityQueueTest {
             System.out.println(iterator.next());
         }
         System.out.println(priorityQueue.poll());
+        System.out.println(priorityQueue.poll());
+        System.out.println(priorityQueue.poll());
+        System.out.println(priorityQueue.poll());
 
     }
 }

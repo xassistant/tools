@@ -60,8 +60,8 @@ public class LockTest {
         try {
             lock.lock();
             System.out.println(Thread.currentThread().getName());
-            Thread.sleep(2000);
-            test12();
+            Thread.sleep(2000000);
+//            test12();
         } finally {
             lock.unlock();
         }
