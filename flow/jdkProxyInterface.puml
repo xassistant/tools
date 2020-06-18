@@ -1,0 +1,22 @@
+@startuml
+ProxyDemo -> Proxy: newProxyInstance
+activate Proxy
+Proxy --> Proxy: getProxyClass0
+activate Proxy
+Proxy --> WeakCache: proxyClassCache.get(loader, interfaces)
+activate WeakCache
+WeakCache --> WeakCache: supplier.get()
+activate WeakCache
+WeakCache --> ProxyClassFactory: valueFactory.apply(key, parameter)
+ProxyClassFactory --> ProxyGenerator: generateProxyClass
+ProxyGenerator --> ProxyClassFactory
+ProxyClassFactory --> WeakCache
+deactivate WeakCache
+WeakCache --> Proxy
+deactivate WeakCache
+deactivate Proxy
+Proxy --> ProxyDemo
+
+deactivate Proxy
+
+@enduml

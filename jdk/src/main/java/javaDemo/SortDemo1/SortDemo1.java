@@ -2,7 +2,13 @@ package javaDemo.SortDemo1;
 
 import org.junit.Test;
 
+
 import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
 
 public class SortDemo1 {
     @Test
@@ -11,6 +17,7 @@ public class SortDemo1 {
         list.add("15");
         list.add("1");
         list.add("12");
+        list.add("15");
         list.add("123");
         list.add("10");
         list.add("9");
@@ -22,6 +29,36 @@ public class SortDemo1 {
         // 打印出数据
         for (String str : list) {
             System.out.print(str + "  ");
+        }
+        // 常规的排序
+        Collections.sort(list);
+
+        // 打印出数据
+        for (String str : list) {
+            System.out.println(str);
+        }
+    }
+
+    @Test
+    public void printListIntegerSort() {
+        List<Integer> list = new ArrayList();
+        list.add(15);
+        list.add(123);
+        list.add(10);
+        list.add(91);
+
+        list.add(69);
+        list.add(92);
+        list.add(3);
+        for (int i = 0; i < 80; i++) {
+            list.add((int) (Math.random() * 100));
+        }
+        // 常规的排序
+        Collections.sort(list);
+
+        // 打印出数据
+        for (Integer str : list) {
+            System.out.println(str);
         }
     }
 
