@@ -74,7 +74,7 @@ public class DirectInsertionSort {
 
     @Test
     public void insertSort3() {
-        int[] arr = {49, 38, 65, 97, 76, 13, 27, 49, 78, 34, 12, 64, 1};
+        int[] arr = {4, 38, 65, 97, 76, 13, 27, 49, 78, 34, 12, 64, 1};
         System.out.println("排序之前：");
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");

@@ -1,11 +1,9 @@
 package javaDemo.ThreadDemo;
 
-import com.google.common.util.concurrent.ThreadFactoryBuilder;
 import org.junit.Test;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -15,7 +13,8 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class ThreadPoolShutdownTest {
     @Test
     public void shutdownTest() throws InterruptedException {
-        ScheduledExecutorService executorService = Executors.newSingleThreadScheduledExecutor(new ThreadFactoryBuilder().setNameFormat("conf-file-poller-%d").build());
+        ScheduledExecutorService executorService = Executors.newSingleThreadScheduledExecutor(
+                new com.google.common.util.concurrent.ThreadFactoryBuilder().setNameFormat("conf-file-poller-%d").build());
         AtomicInteger i = new AtomicInteger();
         // 推迟delay
         executorService.scheduleWithFixedDelay(() -> {
@@ -32,7 +31,7 @@ public class ThreadPoolShutdownTest {
         System.out.println("will shutdown ");
         executorService.shutdown();
         System.out.println("shudown is execute");
-        System.out.println("is terminat  " + executorService.isTerminated());
+        System.out.println("is terminated  " + executorService.isTerminated());
         while (!executorService.isTerminated()) {
             try {
                 executorService.awaitTermination(1, TimeUnit.SECONDS);
@@ -42,7 +41,7 @@ public class ThreadPoolShutdownTest {
         }
     }
 
-    Thread class_is_running;
+    Thread classIsRunning;
 
     public static void main(String[] args) throws InterruptedException {
         ThreadPoolShutdownTest test = new ThreadPoolShutdownTest();
@@ -51,8 +50,8 @@ public class ThreadPoolShutdownTest {
         thread.interrupt();
         Thread.sleep(1000);
         test.syncClassTest1();
-        test.class_is_running.start();
-        test.class_is_running.interrupt();
+        test.classIsRunning.start();
+        test.classIsRunning.interrupt();
         System.out.println("============");
         Thread.sleep(1000000);
     }
@@ -67,7 +66,7 @@ public class ThreadPoolShutdownTest {
     }
 
     public void syncClassTest1() {
-        class_is_running = new Thread(() -> {
+        classIsRunning = new Thread(() -> {
             synchronized (this) {
                 System.out.println("class is running----");
                 try {

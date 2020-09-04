@@ -18,26 +18,29 @@ public class ThreadPool2 {
                         .build());
         AtomicInteger i = new AtomicInteger();
         // 推迟delay
-        executorService.scheduleWithFixedDelay(() -> {
-            System.out.println(Thread.currentThread().getName() + (i.get()) + "--start");
-            try {
-                Thread.sleep(5000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            System.out.println(Thread.currentThread().getName() + (i.getAndIncrement()) + "--end");
-        }, 0, 1, TimeUnit.SECONDS);
-
-        // 应为程序占用的时间，不推迟了
-//        executorService.scheduleAtFixedRate(() -> {
-//            System.out.println(Thread.currentThread().getName() + (i.get()) + "--start");
+//        executorService.scheduleWithFixedDelay(() -> {
+//            System.out.println(Thread.currentThread().getName() + (i.get()) + "推迟delay--start");
 //            try {
 //                Thread.sleep(5000);
 //            } catch (InterruptedException e) {
 //                e.printStackTrace();
 //            }
-//            System.out.println(Thread.currentThread().getName() + (i.getAndIncrement()) + "--end");
+//            System.out.println(Thread.currentThread().getName() + (i.getAndIncrement()) + "推迟delay--end");
 //        }, 0, 1, TimeUnit.SECONDS);
+
+        // 应为程序占用的时间，不推迟了
+        executorService.scheduleAtFixedRate(() -> {
+            System.out.println(Thread.currentThread().getName() + (i.get()) + "Rate--start");
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println("exception start");
+            System.out.println(1/0);
+            System.out.println("exception end");
+            System.out.println(Thread.currentThread().getName() + (i.getAndIncrement()) + "Rate--end");
+        }, 0, 1, TimeUnit.SECONDS);
 
         Thread.sleep(100000);
     }
