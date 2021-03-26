@@ -17,7 +17,7 @@ public class ThreadPollTest1 {
         public void run() {
             System.out.println(Thread.currentThread().getName() + " is running" + "(当前线程数：)" + Thread.activeCount() + "---编号任务：" + i);
             try {
-                Thread.sleep(10000);
+                Thread.sleep(20000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
